@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "jiang_wuliang",
+    "name": "姜无量 (Jiang Wuliang)",
+    "path": "/character/jiang_wuliang",
+    "category": "cameo",
+    "brief": "齐国废太子，囚居青石宫"
+  },
+  {
+    "id": "baigu_zhunshen",
+    "name": "白骨尊神 (Baigu Zunshen)",
+    "path": "/character/baigu_zhunshen",
+    "category": "core",
+    "brief": "幽冥神祇，白骨道幕后神座"
+  },
+  {
+    "id": "chongxuan_sheng",
+    "name": "重玄胜 (Chongxuan Sheng)",
+    "path": "/character/chongxuan_sheng",
+    "category": "core",
+    "brief": "齐国顶级世家重玄氏子弟，擅长布局与资源整合"
+  },
+  {
+    "id": "chongxuan_zun",
+    "name": "重玄遵 (Chongxuan Zun)",
+    "path": "/character/chongxuan_zun",
+    "category": "core",
+    "brief": "齐国重玄氏嫡系，重玄胜的堂兄，家主继承人竞争者"
+  },
+  {
+    "id": "dong_a",
+    "name": "董阿 (Dong A)",
+    "path": "/character/dong_a",
+    "category": "core",
+    "brief": "庄国道院强者，后任庄国副相"
+  },
+  {
+    "id": "du_ruhui",
+    "name": "杜如晦 (Du Ruhui)",
+    "path": "/character/du_ruhui",
+    "category": "core",
+    "brief": "庄国国相，掌国事与军略"
+  },
+  {
+    "id": "du_yehu",
+    "name": "杜野虎 (Du Yehu)",
+    "path": "/character/du_yehu",
+    "category": "core",
+    "brief": "枫林城本地少年，“枫林五侠”之一"
+  },
+  {
+    "id": "jiang_wuhua",
+    "name": "姜无华 (Jiang Wuhua)",
+    "path": "/character/jiang_wuhua",
+    "category": "core",
+    "brief": "齐国太子，东宫储君"
+  },
+  {
+    "id": "jiang_wuqi",
+    "name": "姜无弃 (Jiang Wuqi)",
+    "path": "/character/jiang_wuqi",
+    "category": "core",
+    "brief": "齐国十一皇子，长生宫主"
+  },
+  {
+    "id": "jiang_wuxie",
+    "name": "姜无邪 (Jiang Wuxie)",
+    "path": "/character/jiang_wuxie",
+    "category": "core",
+    "brief": "齐国九皇子，养心宫主"
+  },
+  {
+    "id": "jiang_wuyou",
+    "name": "姜无忧 (Jiang Wuyou)",
+    "path": "/character/jiang_wuyou",
+    "category": "core",
+    "brief": "齐国三皇女，华英宫主"
+  },
+  {
+    "id": "lin_zhengren",
+    "name": "林正仁 (Lin Zhengren)",
+    "path": "/character/lin_zhengren",
+    "category": "core",
+    "brief": "望江城林氏长子，庄国道院系修士"
+  },
+  {
+    "id": "ling_he",
+    "name": "凌河 (Ling He)",
+    "path": "/character/ling_he",
+    "category": "core",
+    "brief": "枫林城本地少年，与姜望等结为“枫林五侠”"
+  },
+  {
+    "id": "qi_huangdi",
+    "name": "齐帝（齐国皇帝） (Qi Huangdi)",
+    "path": "/character/qi_huangdi",
+    "category": "core",
+    "brief": "齐国皇帝，大齐帝国最高统治者"
+  },
+  {
+    "id": "song_hengjiang",
+    "name": "宋横江 (Song Hengjiang)",
+    "path": "/character/song_hengjiang",
+    "category": "core",
+    "brief": "清江水府之主，水族领袖"
+  },
+  {
+    "id": "wang_changji",
+    "name": "王长吉 (Wang Changji)",
+    "path": "/character/wang_changji",
+    "category": "core",
+    "brief": "枫林城王氏族人，早年被视为家族“耻辱”"
+  },
+  {
+    "id": "wang_yiwu",
+    "name": "王夷吾 (Wang Yiwu)",
+    "path": "/character/wang_yiwu",
+    "category": "core",
+    "brief": "齐国军方天骄，大齐军神关门弟子"
+  },
+  {
+    "id": "wei_xun",
+    "name": "危寻 (Wei Xun)",
+    "path": "/character/wei_xun",
+    "category": "core",
+    "brief": "钓海楼楼主，衍道境真君"
+  },
+  {
+    "id": "zhang_linchuan",
+    "name": "张临川 (Zhang Linchuan)",
+    "path": "/character/zhang_linchuan",
+    "category": "core",
+    "brief": "庄国道院弟子，白骨道使者身份曝光"
+  },
+  {
+    "id": "zhao_rucheng",
+    "name": "赵汝成 (Zhao Rucheng)",
+    "path": "/character/zhao_rucheng",
+    "category": "core",
+    "brief": "枫林城赵氏子弟，“枫林五侠”之一"
+  },
+  {
+    "id": "zhuang_chenggan",
+    "name": "庄承乾 (Zhuang Chengqian)",
+    "path": "/character/zhuang_chenggan",
+    "category": "core",
+    "brief": "庄国开国太祖，昔日当世真人"
+  },
+  {
+    "id": "zhuang_gaoxian",
+    "name": "庄高羡 (Zhuang Gaoxian)",
+    "path": "/character/zhuang_gaoxian",
+    "category": "core",
+    "brief": "庄国国主"
+  },
+  {
+    "id": "jiang_wang",
+    "name": "姜望 (Jiang Wang)",
+    "path": "/character/jiang_wang",
+    "category": "main",
+    "brief": "庄国清河郡枫林城凤溪镇出身，家境清贫，有妹妹姜安安"
+  },
+  {
+    "id": "bao_bozhao",
+    "name": "鲍伯昭 (Bao Bozhao)",
+    "path": "/character/bao_bozhao",
+    "category": "minor",
+    "brief": "朔方伯长子"
+  },
+  {
+    "id": "bao_song",
+    "name": "包嵩 (Bao Song)",
+    "path": "/character/bao_song",
+    "category": "minor",
+    "brief": "钓海楼内府弟子"
+  },
+  {
+    "id": "beigong_ke",
+    "name": "北宫恪 (Beigong Ke)",
+    "path": "/character/beigong_ke",
+    "category": "minor",
+    "brief": "雍国天骄，英国公北宫玉嫡孙"
+  },
+  {
+    "id": "cang_ming",
+    "name": "苍瞑 (Cang Ming)",
+    "path": "/character/cang_ming",
+    "category": "minor",
+    "brief": "牧国“现世神使”"
+  },
+  {
+    "id": "chao_yu",
+    "name": "朝宇 (Chao Yu)",
+    "path": "/character/chao_yu",
+    "category": "minor",
+    "brief": "冬寂军正将（女将）"
+  },
+  {
+    "id": "chen_gen",
+    "name": "陈艮 (Chen Gen)",
+    "path": "/character/chen_gen",
+    "category": "minor",
+    "brief": "旸谷修士，负责探界河方向"
+  },
+  {
+    "id": "chen_siwu",
+    "name": "辰巳午 (Chen Siwu)",
+    "path": "/character/chen_siwu",
+    "category": "minor",
+    "brief": "宋国天骄，号“六艺皆达”"
+  },
+  {
+    "id": "chi_dingfang",
+    "name": "池定方 (Chi Dingfang)",
+    "path": "/character/chi_dingfang",
+    "category": "minor",
+    "brief": "青云亭宗主（池脉）"
+  },
+  {
+    "id": "chi_lu",
+    "name": "池陆 (Chi Lu)",
+    "path": "/character/chi_lu",
+    "category": "minor",
+    "brief": "青云亭宗守，池脉长辈"
+  },
+  {
+    "id": "chongxuan_hengsheng",
+    "name": "重玄亨升 (Chongxuan Hengsheng)",
+    "path": "/character/chongxuan_hengsheng",
+    "category": "minor",
+    "brief": "重玄氏家老"
+  },
+  {
+    "id": "chu_mi",
+    "name": "褚密 (Chu Mi)",
+    "path": "/character/chu_mi",
+    "category": "minor",
+    "brief": "迷界浮岛行走的掮客与骗子（疑似梁上楼背景）"
+  },
+  {
+    "id": "chu_yao",
+    "name": "褚幺 (Chu Yao)",
+    "path": "/character/chu_yao",
+    "category": "minor",
+    "brief": "褚密之子"
+  },
+  {
+    "id": "dongguo_bao",
+    "name": "东郭豹 (Dongguo Bao)",
+    "path": "/character/dongguo_bao",
+    "category": "minor",
+    "brief": "魏国天骄"
+  },
+  {
+    "id": "feng_ming",
+    "name": "封鸣 (Feng Ming)",
+    "path": "/character/feng_ming",
+    "category": "minor",
+    "brief": "青云亭封脉嫡系子弟，封越之子"
+  },
+  {
+    "id": "feng_yue",
+    "name": "封越 (Feng Yue)",
+    "path": "/character/feng_yue",
+    "category": "minor",
+    "brief": "青云亭封脉宗守，封鸣之父"
+  },
+  {
+    "id": "huang_budong",
+    "name": "黄不东 (Huang Budong)",
+    "path": "/character/huang_budong",
+    "category": "minor",
+    "brief": "秦国天骄"
+  },
+  {
+    "id": "huang_fu",
+    "name": "黄弗 (Huang Fu)",
+    "path": "/character/huang_fu",
+    "category": "minor",
+    "brief": "荆国黄龙卫大将军"
+  },
+  {
+    "id": "huang_su",
+    "name": "黄肃 (Huang Su)",
+    "path": "/character/huang_su",
+    "category": "minor",
+    "brief": "梁国天骄"
+  },
+  {
+    "id": "jiang_shaohua",
+    "name": "江少华 (Jiang Shaohua)",
+    "path": "/character/jiang_shaohua",
+    "category": "minor",
+    "brief": "申国天骄"
+  },
+  {
+    "id": "jiao_wu",
+    "name": "焦武 (Jiao Wu)",
+    "path": "/character/jiao_wu",
+    "category": "minor",
+    "brief": "雍国威宁候，老牌神临强者"
+  },
+  {
+    "id": "jin_ge",
+    "name": "金戈 (Jin Ge)",
+    "path": "/character/jin_ge",
+    "category": "minor",
+    "brief": "牧国金氏真血子弟，铁浮屠之主金昙度之子"
+  },
+  {
+    "id": "jin_tandu",
+    "name": "金昙度 (Jin Tandu)",
+    "path": "/character/jin_tandu",
+    "category": "minor",
+    "brief": "牧国铁浮屠之主"
+  },
+  {
+    "id": "jingli",
+    "name": "净礼 (Jingli)",
+    "path": "/character/jingli",
+    "category": "minor",
+    "brief": "悬空寺僧人，苦觉弟子"
+  },
+  {
+    "id": "liang_jiu",
+    "name": "梁九 (Liang Jiu)",
+    "path": "/character/liang_jiu",
+    "category": "minor",
+    "brief": "青云亭弟子（非封池两脉）"
+  },
+  {
+    "id": "liu_yingqi",
+    "name": "柳应麒 (Liu Yingqi)",
+    "path": "/character/liu_yingqi",
+    "category": "minor",
+    "brief": "宣怀伯，柳秀章之父"
+  },
+  {
+    "id": "mo_jingyu",
+    "name": "墨惊羽 (Mo Jingyu)",
+    "path": "/character/mo_jingyu",
+    "category": "minor",
+    "brief": "墨门天才，秦墨身份背景复杂"
+  },
+  {
+    "id": "murong_fenwu",
+    "name": "慕容奋武 (Murong Fenwu)",
+    "path": "/character/murong_fenwu",
+    "category": "minor",
+    "brief": "荆国赤马卫大将军"
+  },
+  {
+    "id": "na_liang",
+    "name": "那良 (Na Liang)",
+    "path": "/character/na_liang",
+    "category": "minor",
+    "brief": "牧国王帐骑兵，号“狼孩”"
+  },
+  {
+    "id": "na_mo_duo",
+    "name": "那摩多 (Na Moduo)",
+    "path": "/character/na_mo_duo",
+    "category": "minor",
+    "brief": "牧国神殿金冕祭司"
+  },
+  {
+    "id": "qiao_lin",
+    "name": "乔林 (Qiao Lin)",
+    "path": "/character/qiao_lin",
+    "category": "minor",
+    "brief": "齐国天覆军士卒"
+  },
+  {
+    "id": "qiu_ji",
+    "name": "丘吉 (Qiu Ji)",
+    "path": "/character/qiu_ji",
+    "category": "minor",
+    "brief": "司礼监秉笔太监"
+  },
+  {
+    "id": "tian_he",
+    "name": "田和 (Tian He)",
+    "path": "/character/tian_he",
+    "category": "minor",
+    "brief": "大泽田氏人员，田常的联络人"
+  },
+  {
+    "id": "tian_xili",
+    "name": "田希礼 (Tian Xili)",
+    "path": "/character/tian_xili",
+    "category": "minor",
+    "brief": "高昌侯，田氏高层"
+  },
+  {
+    "id": "wei_yu",
+    "name": "卫瑜 (Wei Yu)",
+    "path": "/character/wei_yu",
+    "category": "minor",
+    "brief": "秦国义安伯之子，号“天下第一腾龙”"
+  },
+  {
+    "id": "wu_yiyu",
+    "name": "武一愈 (Wu Yiyu)",
+    "path": "/character/wu_yiyu",
+    "category": "minor",
+    "brief": "金针门长老，门主武一愚之师弟"
+  },
+  {
+    "id": "xian_nankui",
+    "name": "冼南魁 (Xian Nankui)",
+    "path": "/character/xian_nankui",
+    "category": "minor",
+    "brief": "景国神策军统帅"
+  },
+  {
+    "id": "xiang_linger",
+    "name": "香铃儿 (Xiang Linger)",
+    "path": "/character/xiang_linger",
+    "category": "minor",
+    "brief": "三分香气楼天香第五"
+  },
+  {
+    "id": "xiao_shu",
+    "name": "萧恕 (Xiao Shu)",
+    "path": "/character/xiao_shu",
+    "category": "minor",
+    "brief": "丹国天骄"
+  },
+  {
+    "id": "xie_ai",
+    "name": "谢哀 (Xie Ai)",
+    "path": "/character/xie_ai",
+    "category": "minor",
+    "brief": "雪国天骄"
+  },
+  {
+    "id": "xie_baoshu",
+    "name": "谢宝树 (Xie Baoshu)",
+    "path": "/character/xie_baoshu",
+    "category": "minor",
+    "brief": "朝议大夫谢淮安侄，谢家少主"
+  },
+  {
+    "id": "xue_mingyi",
+    "name": "薛明义 (Xue Mingyi)",
+    "path": "/character/xue_mingyi",
+    "category": "minor",
+    "brief": "雍国武功侯，韩煦倚重干臣"
+  },
+  {
+    "id": "yan_jia",
+    "name": "阎伽 (Yan Jia)",
+    "path": "/character/yan_jia",
+    "category": "minor",
+    "brief": "旸谷修士，擅长治疗"
+  },
+  {
+    "id": "yang_liu",
+    "name": "杨柳 (Yang Liu)",
+    "path": "/character/yang_liu",
+    "category": "minor",
+    "brief": "钓海楼嫡传弟子"
+  },
+  {
+    "id": "yelv_zhi",
+    "name": "耶律止 (Yelv Zhi)",
+    "path": "/character/yelv_zhi",
+    "category": "minor",
+    "brief": "辽国天骄，西北五国联盟推举代表"
+  },
+  {
+    "id": "yu_xi",
+    "name": "余徙 (Yu Xi)",
+    "path": "/character/yu_xi",
+    "category": "minor",
+    "brief": "玉京山真君（衍道强者）"
+  },
+  {
+    "id": "yuan_ye",
+    "name": "原野 (Yuan Ye)",
+    "path": "/character/yuan_ye",
+    "category": "minor",
+    "brief": "和国原天神神庙年轻权贵/祭司人物"
+  },
+  {
+    "id": "zhang_cuihua",
+    "name": "张翠华 (Zhang Cuihua)",
+    "path": "/character/zhang_cuihua",
+    "category": "minor",
+    "brief": "褚密之妻，瓦窑镇妇人"
+  },
+  {
+    "id": "zhang_xun",
+    "name": "张巡 (Zhang Xun)",
+    "path": "/character/zhang_xun",
+    "category": "minor",
+    "brief": "丹国天骄"
+  },
+  {
+    "id": "zhao_wuyan",
+    "name": "照无颜 (Zhao Wuyan)",
+    "path": "/character/zhao_wuyan",
+    "category": "minor",
+    "brief": "龙门书院大师姐"
+  },
+  {
+    "id": "zhongshan_yanwen",
+    "name": "中山燕文 (Zhongshan Yanwen)",
+    "path": "/character/zhongshan_yanwen",
+    "category": "minor",
+    "brief": "荆国鹰扬卫大将军"
+  },
+  {
+    "id": "zi_shu",
+    "name": "子舒 (Zi Shu)",
+    "path": "/character/zi_shu",
+    "category": "minor",
+    "brief": "照无颜师妹"
+  },
+  {
+    "id": "bai_xiangwang",
+    "name": "白象王 (Bai Xiangwang)",
+    "path": "/character/bai_xiangwang",
+    "category": "supporting",
+    "brief": "海族王爵（多字王），丁未区域海族统军者之一"
+  },
+  {
+    "id": "bai_yuxia",
+    "name": "白玉瑕 (Bai Yuxia)",
+    "path": "/character/bai_yuxia",
+    "category": "supporting",
+    "brief": "越国天骄"
+  },
+  {
+    "id": "bi_zhu_popo",
+    "name": "碧珠婆婆 (Bi Zhu Popo)",
+    "path": "/character/bi_zhu_popo",
+    "category": "supporting",
+    "brief": "钓海楼实权长老，竹素瑶与竹碧琼之师"
+  },
+  {
+    "id": "cao_jie",
+    "name": "曹皆 (Cao Jie)",
+    "path": "/character/cao_jie",
+    "category": "supporting",
+    "brief": "齐国九卒统帅，春死军主将"
+  },
+  {
+    "id": "chen_zhitao",
+    "name": "陈治涛 (Chen Zhitiao)",
+    "path": "/character/chen_zhitao",
+    "category": "supporting",
+    "brief": "钓海楼大师兄"
+  },
+  {
+    "id": "chongguang_zhenren",
+    "name": "崇光真人 (Chongguang Zhenren)",
+    "path": "/character/chongguang_zhenren",
+    "category": "supporting",
+    "brief": "钓海楼第一长老，靖海长老，当世真人"
+  },
+  {
+    "id": "chongxuan_chuliang",
+    "name": "重玄褚良 (Chongxuan Chuliang)",
+    "path": "/character/chongxuan_chuliang",
+    "category": "supporting",
+    "brief": "齐国名将，号“凶屠”，重玄胜的亲堂叔"
+  },
+  {
+    "id": "chongxuan_yuanhu",
+    "name": "重玄元祜 (Chongxuan Yuanhu)",
+    "path": "/character/chongxuan_yuanhu",
+    "category": "supporting",
+    "brief": "重玄氏本家老辈强者，辈分极高"
+  },
+  {
+    "id": "chu_min",
+    "name": "触悯 (Chu Min)",
+    "path": "/character/chu_min",
+    "category": "supporting",
+    "brief": "夏国天骄，墨家傀儡师"
+  },
+  {
+    "id": "cui_zhu",
+    "name": "崔杼 (Cui Zhu)",
+    "path": "/character/cui_zhu",
+    "category": "supporting",
+    "brief": "囚电军副将"
+  },
+  {
+    "id": "deng_yue",
+    "name": "邓岳 (Deng Yue)",
+    "path": "/character/deng_yue",
+    "category": "supporting",
+    "brief": "草原强者，号“一指断江”"
+  },
+  {
+    "id": "ding_jingshan",
+    "name": "丁景山 (Ding Jingshan)",
+    "path": "/character/ding_jingshan",
+    "category": "supporting",
+    "brief": "旸谷宣威校尉，丁未区域浮岛镇守者"
+  },
+  {
+    "id": "dou_zhao",
+    "name": "斗昭 (Dou Zhao)",
+    "path": "/character/dou_zhao",
+    "category": "supporting",
+    "brief": "楚国斗氏天骄"
+  },
+  {
+    "id": "duan_li",
+    "name": "段离 (Duan Li)",
+    "path": "/character/duan_li",
+    "category": "supporting",
+    "brief": "九江玄甲主将"
+  },
+  {
+    "id": "fan_qingqing",
+    "name": "范清清 (Fan Qingqing)",
+    "path": "/character/fan_qingqing",
+    "category": "supporting",
+    "brief": "五仙门长老"
+  },
+  {
+    "id": "fang_heling",
+    "name": "方鹤翎 (Fang Heling)",
+    "path": "/character/fang_heling",
+    "category": "supporting",
+    "brief": "原缉刑司修士，后成“恨心人魔”"
+  },
+  {
+    "id": "gan_changan",
+    "name": "甘长安 (Gan Changan)",
+    "path": "/character/gan_changan",
+    "category": "supporting",
+    "brief": "秦国天骄，少年神童"
+  },
+  {
+    "id": "gua_shi",
+    "name": "卦师 (Gua Shi)",
+    "path": "/character/gua_shi",
+    "category": "supporting",
+    "brief": "九大人魔第二，“算命人魔”"
+  },
+  {
+    "id": "guan_yan",
+    "name": "观衍 (Guan Yan)",
+    "path": "/character/guan_yan",
+    "category": "supporting",
+    "brief": "悬空寺前高僧，已还俗"
+  },
+  {
+    "id": "hai_jingping",
+    "name": "海京平 (Hai Jingping)",
+    "path": "/character/hai_jingping",
+    "category": "supporting",
+    "brief": "钓海楼护宗长老（位列护宗长老前三），海祭实务负责人之一"
+  },
+  {
+    "id": "han_xu",
+    "name": "韩煦 (Han Xu)",
+    "path": "/character/han_xu",
+    "category": "supporting",
+    "brief": "雍国国君，韩殷之子"
+  },
+  {
+    "id": "han_yin",
+    "name": "韩殷 (Han Yin)",
+    "path": "/character/han_yin",
+    "category": "supporting",
+    "brief": "雍国太上皇，数百年掌权的当世真人"
+  },
+  {
+    "id": "he_huanghou",
+    "name": "何皇后 (He Huanghou)",
+    "path": "/character/he_huanghou",
+    "category": "supporting",
+    "brief": "齐国皇后"
+  },
+  {
+    "id": "heba_dao",
+    "name": "贺拔刀 (Heba Dao)",
+    "path": "/character/heba_dao",
+    "category": "supporting",
+    "brief": "白羽军主将"
+  },
+  {
+    "id": "helian_yunyun",
+    "name": "赫连云云 (Helian Yunyun)",
+    "path": "/character/helian_yunyun",
+    "category": "supporting",
+    "brief": "牧国赫连氏真血公主，苍青之眸"
+  },
+  {
+    "id": "hu_shaomeng",
+    "name": "胡少孟 (Hu Shaomeng)",
+    "path": "/character/hu_shaomeng",
+    "category": "supporting",
+    "brief": "阳国嘉城胡氏子弟，胡由之子"
+  },
+  {
+    "id": "huang_sheli",
+    "name": "黄舍利 (Huang Sheli)",
+    "path": "/character/huang_sheli",
+    "category": "supporting",
+    "brief": "荆国黄龙卫大将军黄弗之女"
+  },
+  {
+    "id": "huangfu_duanming",
+    "name": "皇甫端明 (Huangfu Duanming)",
+    "path": "/character/huangfu_duanming",
+    "category": "supporting",
+    "brief": "庄国大将军"
+  },
+  {
+    "id": "ji_shaoqing",
+    "name": "季少卿 (Ji Shaoqing)",
+    "path": "/character/ji_shaoqing",
+    "category": "supporting",
+    "brief": "钓海楼天骄，第四长老辜怀信亲传"
+  },
+  {
+    "id": "ji_zhaonan",
+    "name": "计昭南 (Ji Zhaonan)",
+    "path": "/character/ji_zhaonan",
+    "category": "supporting",
+    "brief": "军神姜梦熊二弟子"
+  },
+  {
+    "id": "jiang_anan",
+    "name": "姜安安 (Jiang Anan)",
+    "path": "/character/jiang_anan",
+    "category": "supporting",
+    "brief": "姜望的亲妹妹，年幼胆小但懂事"
+  },
+  {
+    "id": "jiang_limeng",
+    "name": "江离梦 (Jiang Limeng)",
+    "path": "/character/jiang_limeng",
+    "category": "supporting",
+    "brief": "盛国天骄，蓬莱岛一脉高层梦无涯关注的门下"
+  },
+  {
+    "id": "kujue",
+    "name": "苦觉 (Kujue)",
+    "path": "/character/kujue",
+    "category": "supporting",
+    "brief": "悬空寺苦字辈僧人"
+  },
+  {
+    "id": "lei_zhangan",
+    "name": "雷占乾 (Lei Zhanqian)",
+    "path": "/character/lei_zhangan",
+    "category": "supporting",
+    "brief": "雷家少主，姜无弃表弟"
+  },
+  {
+    "id": "li_longchuan",
+    "name": "李龙川 (Li Longchuan)",
+    "path": "/character/li_longchuan",
+    "category": "supporting",
+    "brief": "石门李氏嫡子"
+  },
+  {
+    "id": "li_shou",
+    "name": "李瘦 (Li Shou)",
+    "path": "/character/li_shou",
+    "category": "supporting",
+    "brief": "九大人魔之一，“万恶人魔”"
+  },
+  {
+    "id": "li_yi",
+    "name": "李一 (Li Yi)",
+    "path": "/character/li_yi",
+    "category": "supporting",
+    "brief": "第1章现身斩左光烈，景国底牌“太虞真人”"
+  },
+  {
+    "id": "li_ying",
+    "name": "李应 (Li Ying)",
+    "path": "/character/li_ying",
+    "category": "supporting",
+    "brief": "雍国承德侯"
+  },
+  {
+    "id": "li_youjiu",
+    "name": "厉有疚 (Li Youjiu)",
+    "path": "/character/li_youjiu",
+    "category": "supporting",
+    "brief": "齐国三品青牌名捕"
+  },
+  {
+    "id": "lin_xian",
+    "name": "林羡 (Lin Xian)",
+    "path": "/character/lin_xian",
+    "category": "supporting",
+    "brief": "容国天骄"
+  },
+  {
+    "id": "lin_youxie",
+    "name": "林有邪 (Lin Youxie)",
+    "path": "/character/lin_youxie",
+    "category": "supporting",
+    "brief": "齐国青牌捕头，名捕林况之后"
+  },
+  {
+    "id": "liu_xiao",
+    "name": "柳啸 (Liu Xiao)",
+    "path": "/character/liu_xiao",
+    "category": "supporting",
+    "brief": "扶风柳氏神临强者，幼年被柳氏收养"
+  },
+  {
+    "id": "liu_xiuzhang",
+    "name": "柳秀章 (Liu Xiuzhang)",
+    "path": "/character/liu_xiuzhang",
+    "category": "supporting",
+    "brief": "扶风柳氏女"
+  },
+  {
+    "id": "lu_zongxiao",
+    "name": "吕宗骁 (Lü Zongxiao)",
+    "path": "/character/lu_zongxiao",
+    "category": "supporting",
+    "brief": "天府城城主"
+  },
+  {
+    "id": "miao_yu",
+    "name": "妙玉 (Miao Yu)",
+    "path": "/character/miao_yu",
+    "category": "supporting",
+    "brief": "白骨道重要人物；三分香气楼人物（以“昧月”身份活动）"
+  },
+  {
+    "id": "mo_zichu",
+    "name": "莫子楚 (Mo Zichu)",
+    "path": "/character/mo_zichu",
+    "category": "supporting",
+    "brief": "东王谷弟子，莫家少主"
+  },
+  {
+    "id": "murong_longqie",
+    "name": "慕容龙且 (Murong Longqie)",
+    "path": "/character/murong_longqie",
+    "category": "supporting",
+    "brief": "荆国赤马卫大将军慕容奋武养子"
+  },
+  {
+    "id": "ning_shuangrong",
+    "name": "宁霜容 (Ning Shuangrong)",
+    "path": "/character/ning_shuangrong",
+    "category": "supporting",
+    "brief": "剑阁真传弟子，亦为小国世家女"
+  },
+  {
+    "id": "qi_xiao",
+    "name": "祁笑 (Qi Xiao)",
+    "path": "/character/qi_xiao",
+    "category": "supporting",
+    "brief": "决明岛真人，夏尸军统帅，出身东莱祁氏"
+  },
+  {
+    "id": "qin_zhizhen",
+    "name": "秦至臻 (Qin Zhizhen)",
+    "path": "/character/qin_zhizhen",
+    "category": "supporting",
+    "brief": "秦国天骄，黄河之会内府出战者"
+  },
+  {
+    "id": "qu_shunhua",
+    "name": "屈舜华 (Qu Shunhua)",
+    "path": "/character/qu_shunhua",
+    "category": "supporting",
+    "brief": "楚国名门天骄"
+  },
+  {
+    "id": "sheng_xuehuai",
+    "name": "盛雪怀 (Sheng Xuehuai)",
+    "path": "/character/sheng_xuehuai",
+    "category": "supporting",
+    "brief": "盛国天骄"
+  },
+  {
+    "id": "song_qingyue",
+    "name": "宋清约 (Song Qingyue)",
+    "path": "/character/song_qingyue",
+    "category": "supporting",
+    "brief": "清江水府少君，宋横江之子"
+  },
+  {
+    "id": "song_wanxi",
+    "name": "宋婉溪 (Song Wanxi)",
+    "path": "/character/song_wanxi",
+    "category": "supporting",
+    "brief": "宋横江之妹，庄高羡祖母"
+  },
+  {
+    "id": "sun_xiaoman",
+    "name": "孙小蛮 (Sun Xiaoman)",
+    "path": "/character/sun_xiaoman",
+    "category": "supporting",
+    "brief": "武道强者王骜之徒，性格爽朗直率"
+  },
+  {
+    "id": "tai_yin",
+    "name": "太寅 (Tai Yin)",
+    "path": "/character/tai_yin",
+    "category": "supporting",
+    "brief": "夏国太氏名门天骄，太华真人侄孙"
+  },
+  {
+    "id": "tian_anping",
+    "name": "田安平 (Tian Anping)",
+    "path": "/character/tian_anping",
+    "category": "supporting",
+    "brief": "齐国田氏天骄，大泽郡即城之人"
+  },
+  {
+    "id": "wang_ao",
+    "name": "王骜 (Wang Ao)",
+    "path": "/character/wang_ao",
+    "category": "supporting",
+    "brief": "武道强者，孙小蛮之师，自称“一介武夫”"
+  },
+  {
+    "id": "wen_tinglan",
+    "name": "温汀兰 (Wen Tinglan)",
+    "path": "/character/wen_tinglan",
+    "category": "supporting",
+    "brief": "温氏女子（名门士族）"
+  },
+  {
+    "id": "wu_lie",
+    "name": "乌列 (Wu Lie)",
+    "path": "/character/wu_lie",
+    "category": "supporting",
+    "brief": "前青牌名捕，与林况齐名的“南乌列”"
+  },
+  {
+    "id": "xiahou_lie",
+    "name": "夏侯烈 (Xiahou Lie)",
+    "path": "/character/xiahou_lie",
+    "category": "supporting",
+    "brief": "荆国骁骑大都督"
+  },
+  {
+    "id": "xiang_bei",
+    "name": "项北 (Xiang Bei)",
+    "path": "/character/xiang_bei",
+    "category": "supporting",
+    "brief": "楚国天骄"
+  },
+  {
+    "id": "xiang_qian",
+    "name": "向前 (Xiang Qian)",
+    "path": "/character/xiang_qian",
+    "category": "supporting",
+    "brief": "枫林城少年，“枫林五侠”之一"
+  },
+  {
+    "id": "xu_xianggan",
+    "name": "许象乾 (Xu Xiangqian)",
+    "path": "/character/xu_xianggan",
+    "category": "supporting",
+    "brief": "青崖书院弟子，名门子弟"
+  },
+  {
+    "id": "xu_ze_fu",
+    "name": "虚泽甫 (Xu Zefu)",
+    "path": "/character/xu_ze_fu",
+    "category": "supporting",
+    "brief": "太虚派门下"
+  },
+  {
+    "id": "yan_fu",
+    "name": "晏抚 (Yan Fu)",
+    "path": "/character/yan_fu",
+    "category": "supporting",
+    "brief": "贝郡晏氏子弟，前相晏平之孙"
+  },
+  {
+    "id": "yan_shaofei",
+    "name": "燕少飞 (Yan Shaofei)",
+    "path": "/character/yan_shaofei",
+    "category": "supporting",
+    "brief": "魏国游侠出身的外楼天骄"
+  },
+  {
+    "id": "yan_zi",
+    "name": "燕子 (Yan Zi)",
+    "path": "/character/yan_zi",
+    "category": "supporting",
+    "brief": "九大人魔之一，无面女子"
+  },
+  {
+    "id": "yang_feng",
+    "name": "杨奉 (Yang Feng)",
+    "path": "/character/yang_feng",
+    "category": "supporting",
+    "brief": "旸谷宣威旗将，当世真人"
+  },
+  {
+    "id": "yang_jiande",
+    "name": "阳建德 (Yang Jiande)",
+    "path": "/character/yang_jiande",
+    "category": "supporting",
+    "brief": "阳国国君（第二十七代）"
+  },
+  {
+    "id": "ye_laner",
+    "name": "夜澜儿 (Ye Lan'er)",
+    "path": "/character/ye_laner",
+    "category": "supporting",
+    "brief": "楚国第一美人"
+  },
+  {
+    "id": "ye_lingxiao",
+    "name": "叶凌霄 (Ye Lingxiao)",
+    "path": "/character/ye_lingxiao",
+    "category": "supporting",
+    "brief": "云国凌霄阁阁主，叶青雨之父"
+  },
+  {
+    "id": "ye_qingyu",
+    "name": "叶青雨 (Ye Qingyu)",
+    "path": "/character/ye_qingyu",
+    "category": "supporting",
+    "brief": "云国凌霄阁小姐，叶凌霄之女"
+  },
+  {
+    "id": "yi_xingchen",
+    "name": "易星辰 (Yi Xingchen)",
+    "path": "/character/yi_xingchen",
+    "category": "supporting",
+    "brief": "齐国政事堂朝议大夫，当世真人"
+  },
+  {
+    "id": "yin_wenhua",
+    "name": "殷文华 (Yin Wenhua)",
+    "path": "/character/yin_wenhua",
+    "category": "supporting",
+    "brief": "宋国望族子弟，龙门书院弟子"
+  },
+  {
+    "id": "yu_wangu",
+    "name": "鱼万谷 (Yu Wangu)",
+    "path": "/character/yu_wangu",
+    "category": "supporting",
+    "brief": "中阶统帅级海族，血王后裔"
+  },
+  {
+    "id": "yu_wen_duo",
+    "name": "宇文铎 (Yu Wen Duo)",
+    "path": "/character/yu_wen_duo",
+    "category": "supporting",
+    "brief": "牧国宇文氏真血子弟"
+  },
+  {
+    "id": "yue_leng",
+    "name": "岳冷 (Yue Leng)",
+    "path": "/character/yue_leng",
+    "category": "supporting",
+    "brief": "齐国青牌捕神，已加一品致仕"
+  },
+  {
+    "id": "zhang_yong",
+    "name": "张咏 (Zhang Yong)",
+    "path": "/character/zhang_yong",
+    "category": "supporting",
+    "brief": "自称凤仙张氏后人，后被北衙认定为冒名"
+  },
+  {
+    "id": "zheng_fei",
+    "name": "郑肥 (Zheng Fei)",
+    "path": "/character/zheng_fei",
+    "category": "supporting",
+    "brief": "九大人魔之一，“削肉人魔”"
+  },
+  {
+    "id": "zhongshan_weisun",
+    "name": "中山渭孙 (Zhongshan Weisun)",
+    "path": "/character/zhongshan_weisun",
+    "category": "supporting",
+    "brief": "荆国鹰扬卫大将军中山燕文之嫡孙"
+  },
+  {
+    "id": "zhu_biqiong",
+    "name": "竹碧琼 (Zhu Biqiong)",
+    "path": "/character/zhu_biqiong",
+    "category": "supporting",
+    "brief": "钓海楼弟子，碧珠婆婆亲传"
+  },
+  {
+    "id": "zhu_suyao",
+    "name": "竹素瑶 (Zhu Suyao)",
+    "path": "/character/zhu_suyao",
+    "category": "supporting",
+    "brief": "竹碧琼之姐（生死与现状未明）"
+  },
+  {
+    "id": "zhu_weiwo",
+    "name": "祝唯我 (Zhu Weiwo)",
+    "path": "/character/zhu_weiwo",
+    "category": "supporting",
+    "brief": "庄国道院顶尖弟子之一，名声极盛"
+  },
+  {
+    "id": "zuo_guanglie",
+    "name": "左光烈 (Zuo Guanglie)",
+    "path": "/character/zuo_guanglie",
+    "category": "supporting",
+    "brief": "楚国天骄，名震天下的火系修者"
+  },
+  {
+    "id": "zuo_guangshu",
+    "name": "左光殊 (Zuo Guangshu)",
+    "path": "/character/zuo_guangshu",
+    "category": "supporting",
+    "brief": "楚国名门左氏子弟，左光烈之弟"
+  }
+]

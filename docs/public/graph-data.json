@@ -1,0 +1,2547 @@
+{
+  "nodes": [
+    {
+      "id": "姜望",
+      "category": 0,
+      "value": 50,
+      "url": null,
+      "symbolSize": 60,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜安安",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "凌河",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "杜野虎",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "赵汝成",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜望 —师长-门生",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "生死仇— 董阿",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "左光烈",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "叶青雨",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "重玄胜",
+      "category": 0,
+      "value": 7,
+      "url": null,
+      "symbolSize": 24,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "妙玉",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜魇",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "王夷吾",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "白骨道",
+      "category": 0,
+      "value": 5,
+      "url": null,
+      "symbolSize": 20,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "胡少孟",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "莫子楚",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "阳建德",
+      "category": 0,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "杜如晦",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "庄承乾",
+      "category": 0,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "苦觉",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜无忧",
+      "category": 0,
+      "value": 6,
+      "url": null,
+      "symbolSize": 22,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜无邪",
+      "category": 0,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "封鸣",
+      "category": 0,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "九大人魔",
+      "category": 0,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "张临川",
+      "category": 1,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "王长吉",
+      "category": 1,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "董阿",
+      "category": 1,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "祝唯我",
+      "category": 1,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜望等道院弟子",
+      "category": 1,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "重玄褚良",
+      "category": 2,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "重玄遵",
+      "category": 2,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "阳国王室",
+      "category": 3,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "叶凌霄",
+      "category": 4,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "斗勉",
+      "category": 4,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "云游翁",
+      "category": 4,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "灵空殿",
+      "category": 4,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "庄高羡",
+      "category": 5,
+      "value": 4,
+      "url": null,
+      "symbolSize": 18,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "皇甫端明",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "韩殷",
+      "category": 5,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "韩煦",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "李应",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "林正仁",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "庄国道院",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "宋横江",
+      "category": 6,
+      "value": 4,
+      "url": null,
+      "symbolSize": 18,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "清江水府",
+      "category": 6,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "宋清约",
+      "category": 6,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "宋婉溪",
+      "category": 6,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "白骨尊神",
+      "category": 6,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "宋婉溪（血傀真魔）",
+      "category": 6,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "庄国朝廷",
+      "category": 6,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "封越",
+      "category": 7,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "池定方",
+      "category": 7,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "池陆",
+      "category": 7,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "郑肥",
+      "category": 7,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "李瘦",
+      "category": 7,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "燕子",
+      "category": 7,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "梁九",
+      "category": 7,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "方鹤翎",
+      "category": 7,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "卦师",
+      "category": 7,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "焦武",
+      "category": 7,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "薛明义",
+      "category": 7,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "墨惊羽",
+      "category": 7,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "姜无量",
+      "category": 8,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "竹碧琼",
+      "category": 8,
+      "value": 4,
+      "url": null,
+      "symbolSize": 18,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "林有邪",
+      "category": 9,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "林况（念尘秘术）；—前辈— 乌列",
+      "category": 9,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "碧珠婆婆",
+      "category": 9,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "范清清",
+      "category": 9,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "许象乾",
+      "category": 9,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "杨柳",
+      "category": 9,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "许象乾/杨柳",
+      "category": 9,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "照无颜",
+      "category": 9,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "晏抚",
+      "category": 9,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "钓海楼",
+      "category": 9,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "陈治涛",
+      "category": 9,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "危寻",
+      "category": 10,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "崇光真人",
+      "category": 10,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "海京平",
+      "category": 10,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "李龙川",
+      "category": 10,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "丁景山",
+      "category": 10,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "白象王",
+      "category": 10,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "鱼万谷",
+      "category": 10,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "鱼嗣庆",
+      "category": 11,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "水鹰嵘",
+      "category": 11,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "褚密",
+      "category": 11,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "陈艮",
+      "category": 11,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "阎伽",
+      "category": 11,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "符彦青",
+      "category": 11,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "孙小蛮",
+      "category": 11,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "王骜",
+      "category": 11,
+      "value": 3,
+      "url": null,
+      "symbolSize": 16,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "血王",
+      "category": 11,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "季少卿",
+      "category": 11,
+      "value": 4,
+      "url": null,
+      "symbolSize": 18,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "包嵩",
+      "category": 11,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "辜怀信",
+      "category": 11,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "乌列",
+      "category": 12,
+      "value": 2,
+      "url": null,
+      "symbolSize": 14,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "田焕文",
+      "category": 12,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "吕宗骁",
+      "category": 12,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "竹素瑶",
+      "category": 12,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "虚泽甫",
+      "category": 12,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    },
+    {
+      "id": "左光殊",
+      "category": 12,
+      "value": 1,
+      "url": null,
+      "symbolSize": 12,
+      "label": {
+        "show": true
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "姜望",
+      "target": "姜安安",
+      "value": "亲属",
+      "label": {
+        "show": true,
+        "formatter": "亲属"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "凌河",
+      "value": "结义同伴",
+      "label": {
+        "show": true,
+        "formatter": "结义同伴"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "杜野虎",
+      "value": "结义同伴",
+      "label": {
+        "show": true,
+        "formatter": "结义同伴"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "赵汝成",
+      "value": "结义同伴",
+      "label": {
+        "show": true,
+        "formatter": "结义同伴"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望 —师长-门生",
+      "target": "生死仇— 董阿",
+      "value": "指向",
+      "label": {
+        "show": true,
+        "formatter": "指向"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "左光烈",
+      "value": "机缘",
+      "label": {
+        "show": true,
+        "formatter": "机缘"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "叶青雨",
+      "value": "友好",
+      "label": {
+        "show": true,
+        "formatter": "友好"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "重玄胜",
+      "value": "盟友合作",
+      "label": {
+        "show": true,
+        "formatter": "盟友合作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "妙玉",
+      "value": "引路/短期盟友",
+      "label": {
+        "show": true,
+        "formatter": "引路/短期盟友"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "姜魇",
+      "value": "共生-制衡",
+      "label": {
+        "show": true,
+        "formatter": "共生-制衡"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "王夷吾",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "白骨道",
+      "value": "敌对势力",
+      "label": {
+        "show": true,
+        "formatter": "敌对势力"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "胡少孟",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "莫子楚",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "阳建德",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "杜如晦",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "庄承乾",
+      "value": "生死对立",
+      "label": {
+        "show": true,
+        "formatter": "生死对立"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "苦觉",
+      "value": "救命师缘",
+      "label": {
+        "show": true,
+        "formatter": "救命师缘"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "姜无忧",
+      "value": "交易合作",
+      "label": {
+        "show": true,
+        "formatter": "交易合作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "姜无邪",
+      "value": "交易未成",
+      "label": {
+        "show": true,
+        "formatter": "交易未成"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "封鸣",
+      "value": "救援",
+      "label": {
+        "show": true,
+        "formatter": "救援"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "九大人魔",
+      "value": "敌对势力",
+      "label": {
+        "show": true,
+        "formatter": "敌对势力"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "张临川",
+      "target": "白骨道",
+      "value": "道院师长（表）/白骨使者（里）",
+      "label": {
+        "show": true,
+        "formatter": "道院师长（表）/白骨使者（里）"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "王长吉",
+      "target": "白骨道",
+      "value": "白骨道子",
+      "label": {
+        "show": true,
+        "formatter": "白骨道子"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "妙玉",
+      "target": "白骨道",
+      "value": "白骨圣女",
+      "label": {
+        "show": true,
+        "formatter": "白骨圣女"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "妙玉",
+      "target": "王长吉",
+      "value": "关联",
+      "label": {
+        "show": true,
+        "formatter": "关联"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "张临川",
+      "target": "王长吉",
+      "value": "关联",
+      "label": {
+        "show": true,
+        "formatter": "关联"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "董阿",
+      "target": "白骨道",
+      "value": "对抗",
+      "label": {
+        "show": true,
+        "formatter": "对抗"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "祝唯我",
+      "target": "姜望等道院弟子",
+      "value": "道院天骄标杆",
+      "label": {
+        "show": true,
+        "formatter": "道院天骄标杆"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "重玄胜",
+      "target": "姜望",
+      "value": "盟友",
+      "label": {
+        "show": true,
+        "formatter": "盟友"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "重玄胜",
+      "target": "重玄褚良",
+      "value": "支持者",
+      "label": {
+        "show": true,
+        "formatter": "支持者"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "重玄胜",
+      "target": "重玄遵",
+      "value": "竞争",
+      "label": {
+        "show": true,
+        "formatter": "竞争"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "重玄遵",
+      "target": "王夷吾",
+      "value": "盟友",
+      "label": {
+        "show": true,
+        "formatter": "盟友"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "王夷吾",
+      "target": "姜望",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "王夷吾",
+      "target": "重玄胜",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "胡少孟",
+      "target": "莫子楚",
+      "value": "关联",
+      "label": {
+        "show": true,
+        "formatter": "关联"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "胡少孟",
+      "target": "姜望",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "莫子楚",
+      "target": "姜望",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "阳建德",
+      "target": "阳国王室",
+      "value": "阳国国君",
+      "label": {
+        "show": true,
+        "formatter": "阳国国君"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "叶凌霄",
+      "target": "叶青雨",
+      "value": "亲属",
+      "label": {
+        "show": true,
+        "formatter": "亲属"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "叶青雨",
+      "value": "盟友合作",
+      "label": {
+        "show": true,
+        "formatter": "盟友合作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "斗勉",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "云游翁",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "灵空殿",
+      "value": "从属关系",
+      "label": {
+        "show": true,
+        "formatter": "从属关系"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "庄高羡",
+      "target": "杜如晦",
+      "value": "君臣",
+      "label": {
+        "show": true,
+        "formatter": "君臣"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "庄高羡",
+      "target": "董阿",
+      "value": "君臣",
+      "label": {
+        "show": true,
+        "formatter": "君臣"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "庄高羡",
+      "target": "皇甫端明",
+      "value": "君臣",
+      "label": {
+        "show": true,
+        "formatter": "君臣"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "韩殷",
+      "target": "韩煦",
+      "value": "父子/君臣",
+      "label": {
+        "show": true,
+        "formatter": "父子/君臣"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "韩殷",
+      "target": "庄高羡",
+      "value": "对手",
+      "label": {
+        "show": true,
+        "formatter": "对手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "李应",
+      "target": "韩殷",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "祝唯我",
+      "target": "庄高羡",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "祝唯我",
+      "target": "杜如晦",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "林正仁",
+      "target": "庄国道院",
+      "value": "从属关系",
+      "label": {
+        "show": true,
+        "formatter": "从属关系"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "宋横江",
+      "target": "清江水府",
+      "value": "从属关系",
+      "label": {
+        "show": true,
+        "formatter": "从属关系"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "宋横江",
+      "value": "对手/敌对",
+      "label": {
+        "show": true,
+        "formatter": "对手/敌对"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "宋清约",
+      "target": "宋横江",
+      "value": "亲属",
+      "label": {
+        "show": true,
+        "formatter": "亲属"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "宋婉溪",
+      "target": "宋横江",
+      "value": "亲属",
+      "label": {
+        "show": true,
+        "formatter": "亲属"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "庄承乾",
+      "target": "白骨尊神",
+      "value": "对弈",
+      "label": {
+        "show": true,
+        "formatter": "对弈"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "宋婉溪（血傀真魔）",
+      "target": "庄承乾",
+      "value": "受控",
+      "label": {
+        "show": true,
+        "formatter": "受控"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "宋清约",
+      "target": "庄国朝廷",
+      "value": "从属关系",
+      "label": {
+        "show": true,
+        "formatter": "从属关系"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "封越",
+      "target": "封鸣",
+      "value": "亲属",
+      "label": {
+        "show": true,
+        "formatter": "亲属"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "池定方",
+      "target": "封越",
+      "value": "同门/宗主",
+      "label": {
+        "show": true,
+        "formatter": "同门/宗主"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "池定方",
+      "target": "池陆",
+      "value": "同门/宗主",
+      "label": {
+        "show": true,
+        "formatter": "同门/宗主"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "封越",
+      "target": "池陆",
+      "value": "竞争/同宗",
+      "label": {
+        "show": true,
+        "formatter": "竞争/同宗"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "郑肥",
+      "target": "李瘦",
+      "value": "同伴",
+      "label": {
+        "show": true,
+        "formatter": "同伴"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "燕子",
+      "target": "梁九",
+      "value": "庇护",
+      "label": {
+        "show": true,
+        "formatter": "庇护"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "方鹤翎",
+      "target": "郑肥",
+      "value": "同伙",
+      "label": {
+        "show": true,
+        "formatter": "同伙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "方鹤翎",
+      "target": "李瘦",
+      "value": "同伙",
+      "label": {
+        "show": true,
+        "formatter": "同伙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "方鹤翎",
+      "target": "燕子",
+      "value": "同伙",
+      "label": {
+        "show": true,
+        "formatter": "同伙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "卦师",
+      "target": "郑肥",
+      "value": "上位者",
+      "label": {
+        "show": true,
+        "formatter": "上位者"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "卦师",
+      "target": "李瘦",
+      "value": "上位者",
+      "label": {
+        "show": true,
+        "formatter": "上位者"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "焦武",
+      "target": "薛明义",
+      "value": "对立",
+      "label": {
+        "show": true,
+        "formatter": "对立"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "墨惊羽",
+      "target": "焦武",
+      "value": "座上宾",
+      "label": {
+        "show": true,
+        "formatter": "座上宾"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜无忧",
+      "target": "姜无邪",
+      "value": "亲属",
+      "label": {
+        "show": true,
+        "formatter": "亲属"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜无忧",
+      "target": "姜无量",
+      "value": "兄妹",
+      "label": {
+        "show": true,
+        "formatter": "兄妹"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "重玄胜",
+      "value": "盟友合作",
+      "label": {
+        "show": true,
+        "formatter": "盟友合作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "竹碧琼",
+      "value": "关注/救援",
+      "label": {
+        "show": true,
+        "formatter": "关注/救援"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "林有邪",
+      "value": "同僚/试探",
+      "label": {
+        "show": true,
+        "formatter": "同僚/试探"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "林有邪",
+      "target": "林况（念尘秘术）；—前辈— 乌列",
+      "value": "师承/传承",
+      "label": {
+        "show": true,
+        "formatter": "师承/传承"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "碧珠婆婆",
+      "value": "交涉",
+      "label": {
+        "show": true,
+        "formatter": "交涉"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "竹碧琼",
+      "value": "救援",
+      "label": {
+        "show": true,
+        "formatter": "救援"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "范清清",
+      "value": "交涉",
+      "label": {
+        "show": true,
+        "formatter": "交涉"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "许象乾",
+      "target": "杨柳",
+      "value": "竞争",
+      "label": {
+        "show": true,
+        "formatter": "竞争"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "许象乾/杨柳",
+      "target": "照无颜",
+      "value": "追求",
+      "label": {
+        "show": true,
+        "formatter": "追求"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜无忧",
+      "target": "晏抚",
+      "value": "训诫",
+      "label": {
+        "show": true,
+        "formatter": "训诫"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "钓海楼",
+      "target": "陈治涛",
+      "value": "师兄统领",
+      "label": {
+        "show": true,
+        "formatter": "师兄统领"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "碧珠婆婆",
+      "value": "生死对立",
+      "label": {
+        "show": true,
+        "formatter": "生死对立"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "危寻",
+      "value": "裁决者",
+      "label": {
+        "show": true,
+        "formatter": "裁决者"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "崇光真人",
+      "value": "对峙",
+      "label": {
+        "show": true,
+        "formatter": "对峙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "海京平",
+      "value": "对峙",
+      "label": {
+        "show": true,
+        "formatter": "对峙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "重玄胜",
+      "value": "送行援助",
+      "label": {
+        "show": true,
+        "formatter": "送行援助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "姜无忧",
+      "value": "送行援助",
+      "label": {
+        "show": true,
+        "formatter": "送行援助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "晏抚",
+      "value": "送行援助",
+      "label": {
+        "show": true,
+        "formatter": "送行援助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "许象乾",
+      "value": "送行援助",
+      "label": {
+        "show": true,
+        "formatter": "送行援助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "李龙川",
+      "value": "送行援助",
+      "label": {
+        "show": true,
+        "formatter": "送行援助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "丁景山",
+      "value": "袍泽关系",
+      "label": {
+        "show": true,
+        "formatter": "袍泽关系"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "白象王",
+      "value": "敌对势力",
+      "label": {
+        "show": true,
+        "formatter": "敌对势力"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "鱼万谷",
+      "value": "敌对势力",
+      "label": {
+        "show": true,
+        "formatter": "敌对势力"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "鱼嗣庆",
+      "value": "生死对立",
+      "label": {
+        "show": true,
+        "formatter": "生死对立"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "水鹰嵘",
+      "value": "生死对立",
+      "label": {
+        "show": true,
+        "formatter": "生死对立"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "褚密",
+      "value": "短暂协作",
+      "label": {
+        "show": true,
+        "formatter": "短暂协作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "陈艮",
+      "value": "盟友/救援",
+      "label": {
+        "show": true,
+        "formatter": "盟友/救援"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "阎伽",
+      "value": "盟友/救援",
+      "label": {
+        "show": true,
+        "formatter": "盟友/救援"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "符彦青",
+      "value": "同袍协作",
+      "label": {
+        "show": true,
+        "formatter": "同袍协作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "丁景山",
+      "value": "同袍协作",
+      "label": {
+        "show": true,
+        "formatter": "同袍协作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "孙小蛮",
+      "value": "旧识/援手",
+      "label": {
+        "show": true,
+        "formatter": "旧识/援手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "王骜",
+      "value": "旧识/援手",
+      "label": {
+        "show": true,
+        "formatter": "旧识/援手"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "血王",
+      "value": "对峙",
+      "label": {
+        "show": true,
+        "formatter": "对峙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "季少卿",
+      "value": "生死决斗",
+      "label": {
+        "show": true,
+        "formatter": "生死决斗"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "包嵩",
+      "value": "试剑",
+      "label": {
+        "show": true,
+        "formatter": "试剑"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "孙小蛮",
+      "target": "王骜",
+      "value": "师徒",
+      "label": {
+        "show": true,
+        "formatter": "师徒"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "王骜",
+      "target": "血王",
+      "value": "对峙",
+      "label": {
+        "show": true,
+        "formatter": "对峙"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "陈艮",
+      "target": "阎伽",
+      "value": "同僚",
+      "label": {
+        "show": true,
+        "formatter": "同僚"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "包嵩",
+      "target": "季少卿",
+      "value": "同门",
+      "label": {
+        "show": true,
+        "formatter": "同门"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "季少卿",
+      "target": "辜怀信",
+      "value": "师长-门生",
+      "label": {
+        "show": true,
+        "formatter": "师长-门生"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜无忧",
+      "target": "季少卿",
+      "value": "公证/制止",
+      "label": {
+        "show": true,
+        "formatter": "公证/制止"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "范清清",
+      "value": "主从/庇护",
+      "label": {
+        "show": true,
+        "formatter": "主从/庇护"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "乌列",
+      "value": "同僚/互助",
+      "label": {
+        "show": true,
+        "formatter": "同僚/互助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "林有邪",
+      "value": "同僚/互助",
+      "label": {
+        "show": true,
+        "formatter": "同僚/互助"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "乌列",
+      "target": "田焕文",
+      "value": "追查/对立",
+      "label": {
+        "show": true,
+        "formatter": "追查/对立"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "吕宗骁",
+      "value": "合作",
+      "label": {
+        "show": true,
+        "formatter": "合作"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "竹碧琼",
+      "target": "辜怀信",
+      "value": "师长-门生",
+      "label": {
+        "show": true,
+        "formatter": "师长-门生"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "竹碧琼",
+      "target": "竹素瑶",
+      "value": "亲属/镜花线",
+      "label": {
+        "show": true,
+        "formatter": "亲属/镜花线"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "虚泽甫",
+      "value": "合作/信任",
+      "label": {
+        "show": true,
+        "formatter": "合作/信任"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    },
+    {
+      "source": "姜望",
+      "target": "左光殊",
+      "value": "对手/友好",
+      "label": {
+        "show": true,
+        "formatter": "对手/友好"
+      },
+      "lineStyle": {
+        "curveness": 0.2
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "一、姜望核心关系"
+    },
+    {
+      "name": "二、枫林城/庄国线（白骨道相关）"
+    },
+    {
+      "name": "三、齐国重玄氏线"
+    },
+    {
+      "name": "四、阳国矿脉/乌祸线"
+    },
+    {
+      "name": "五、云国/迟云山线（501-700章）"
+    },
+    {
+      "name": "六、庄雍国战线（501-700章）"
+    },
+    {
+      "name": "七、清江水府/魔窟线（501-750章）"
+    },
+    {
+      "name": "八、雍国青云亭与人魔线（751-800章）"
+    },
+    {
+      "name": "九、齐国帝室与海祭线（751-800章）"
+    },
+    {
+      "name": "十、近海群岛与海祭推进（801-850章）"
+    },
+    {
+      "name": "十一、天涯台海祭与迷界洗罪（851-900章）"
+    },
+    {
+      "name": "十二、迷界突围与天涯台决斗（901-950章）"
+    },
+    {
+      "name": "十三、天涯台余波与太虚角楼（951-1000章）"
+    }
+  ]
+}

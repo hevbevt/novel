@@ -1,0 +1,2729 @@
+{
+  "nodes": [
+    {
+      "id": "姜望",
+      "name": "姜望",
+      "category": 0,
+      "value": 82,
+      "url": "/character/jiang_wang",
+      "tier": "主角",
+      "symbolSize": 80
+    },
+    {
+      "id": "姜安安",
+      "name": "姜安安",
+      "category": 2,
+      "value": 1,
+      "url": "/character/jiang_anan",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "凌河",
+      "name": "凌河",
+      "category": 1,
+      "value": 1,
+      "url": "/character/ling_he",
+      "tier": "核心配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "杜野虎",
+      "name": "杜野虎",
+      "category": 1,
+      "value": 2,
+      "url": "/character/du_yehu",
+      "tier": "核心配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "赵汝成",
+      "name": "赵汝成",
+      "category": 1,
+      "value": 10,
+      "url": "/character/zhao_rucheng",
+      "tier": "核心配角",
+      "symbolSize": 35.29822128134704
+    },
+    {
+      "id": "董阿",
+      "name": "董阿",
+      "category": 1,
+      "value": 3,
+      "url": "/character/dong_a",
+      "tier": "核心配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "左光烈",
+      "name": "左光烈",
+      "category": 2,
+      "value": 1,
+      "url": "/character/zuo_guanglie",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "叶青雨",
+      "name": "叶青雨",
+      "category": 2,
+      "value": 4,
+      "url": "/character/ye_qingyu",
+      "tier": "重要配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "重玄胜",
+      "name": "重玄胜",
+      "category": 1,
+      "value": 7,
+      "url": "/character/chongxuan_sheng",
+      "tier": "核心配角",
+      "symbolSize": 31.166010488516726
+    },
+    {
+      "id": "晏抚",
+      "name": "晏抚",
+      "category": 2,
+      "value": 3,
+      "url": "/character/yan_fu",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "妙玉",
+      "name": "妙玉",
+      "category": 2,
+      "value": 3,
+      "url": "/character/miao_yu",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "姜魇",
+      "name": "姜魇",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "王夷吾",
+      "name": "王夷吾",
+      "category": 1,
+      "value": 3,
+      "url": "/character/wang_yiwu",
+      "tier": "核心配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "雷占乾",
+      "name": "雷占乾",
+      "category": 2,
+      "value": 2,
+      "url": "/character/lei_zhangan",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "谢宝树",
+      "name": "谢宝树",
+      "category": 3,
+      "value": 2,
+      "url": "/character/xie_baoshu",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "崔杼",
+      "name": "崔杼",
+      "category": 2,
+      "value": 1,
+      "url": "/character/cui_zhu",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "张咏",
+      "name": "张咏",
+      "category": 2,
+      "value": 1,
+      "url": "/character/zhang_yong",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "白骨道",
+      "name": "白骨道",
+      "category": 5,
+      "value": 5,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 27.88854381999832
+    },
+    {
+      "id": "胡少孟",
+      "name": "胡少孟",
+      "category": 2,
+      "value": 3,
+      "url": "/character/hu_shaomeng",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "莫子楚",
+      "name": "莫子楚",
+      "category": 2,
+      "value": 3,
+      "url": "/character/mo_zichu",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "阳建德",
+      "name": "阳建德",
+      "category": 2,
+      "value": 2,
+      "url": "/character/yang_jiande",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "杜如晦",
+      "name": "杜如晦",
+      "category": 1,
+      "value": 5,
+      "url": "/character/du_ruhui",
+      "tier": "核心配角",
+      "symbolSize": 27.88854381999832
+    },
+    {
+      "id": "庄承乾",
+      "name": "庄承乾",
+      "category": 1,
+      "value": 3,
+      "url": "/character/zhuang_chenggan",
+      "tier": "核心配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "苦觉",
+      "name": "苦觉",
+      "category": 2,
+      "value": 1,
+      "url": "/character/kujue",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "观衍",
+      "name": "观衍",
+      "category": 2,
+      "value": 1,
+      "url": "/character/guan_yan",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "易星辰",
+      "name": "易星辰",
+      "category": 2,
+      "value": 2,
+      "url": "/character/yi_xingchen",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "重玄褚良",
+      "name": "重玄褚良",
+      "category": 2,
+      "value": 3,
+      "url": "/character/chongxuan_chuliang",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "宁霜容",
+      "name": "宁霜容",
+      "category": 2,
+      "value": 2,
+      "url": "/character/ning_shuangrong",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "丘吉",
+      "name": "丘吉",
+      "category": 3,
+      "value": 1,
+      "url": "/character/qiu_ji",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "岳冷",
+      "name": "岳冷",
+      "category": 2,
+      "value": 1,
+      "url": "/character/yue_leng",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "厉有疚",
+      "name": "厉有疚",
+      "category": 2,
+      "value": 1,
+      "url": "/character/li_youjiu",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "姜无忧",
+      "name": "姜无忧",
+      "category": 1,
+      "value": 9,
+      "url": "/character/jiang_wuyou",
+      "tier": "核心配角",
+      "symbolSize": 34
+    },
+    {
+      "id": "姜无邪",
+      "name": "姜无邪",
+      "category": 1,
+      "value": 3,
+      "url": "/character/jiang_wuxie",
+      "tier": "核心配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "封鸣",
+      "name": "封鸣",
+      "category": 3,
+      "value": 2,
+      "url": "/character/feng_ming",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "九大人魔",
+      "name": "九大人魔",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "张临川",
+      "name": "张临川",
+      "category": 1,
+      "value": 2,
+      "url": "/character/zhang_linchuan",
+      "tier": "核心配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "王长吉",
+      "name": "王长吉",
+      "category": 1,
+      "value": 3,
+      "url": "/character/wang_changji",
+      "tier": "核心配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "祝唯我",
+      "name": "祝唯我",
+      "category": 2,
+      "value": 2,
+      "url": "/character/zhu_weiwo",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "姜望等道院弟子",
+      "name": "姜望等道院弟子",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "重玄遵",
+      "name": "重玄遵",
+      "category": 1,
+      "value": 8,
+      "url": "/character/chongxuan_zun",
+      "tier": "核心配角",
+      "symbolSize": 32.62741699796952
+    },
+    {
+      "id": "重玄明光",
+      "name": "重玄明光",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "重玄云波",
+      "name": "重玄云波",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "阳国王室",
+      "name": "阳国王室",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "叶凌霄",
+      "name": "叶凌霄",
+      "category": 2,
+      "value": 1,
+      "url": "/character/ye_lingxiao",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "斗勉",
+      "name": "斗勉",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "云游翁",
+      "name": "云游翁",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "灵空殿",
+      "name": "灵空殿",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "庄高羡",
+      "name": "庄高羡",
+      "category": 1,
+      "value": 4,
+      "url": "/character/zhuang_gaoxian",
+      "tier": "核心配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "皇甫端明",
+      "name": "皇甫端明",
+      "category": 2,
+      "value": 1,
+      "url": "/character/huangfu_duanming",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "韩殷",
+      "name": "韩殷",
+      "category": 2,
+      "value": 3,
+      "url": "/character/han_yin",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "韩煦",
+      "name": "韩煦",
+      "category": 2,
+      "value": 1,
+      "url": "/character/han_xu",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "李应",
+      "name": "李应",
+      "category": 2,
+      "value": 1,
+      "url": "/character/li_ying",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "林正仁",
+      "name": "林正仁",
+      "category": 1,
+      "value": 4,
+      "url": "/character/lin_zhengren",
+      "tier": "核心配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "庄国道院",
+      "name": "庄国道院",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "段离",
+      "name": "段离",
+      "category": 2,
+      "value": 2,
+      "url": "/character/duan_li",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "宋横江",
+      "name": "宋横江",
+      "category": 1,
+      "value": 4,
+      "url": "/character/song_hengjiang",
+      "tier": "核心配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "清江水府",
+      "name": "清江水府",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "宋清约",
+      "name": "宋清约",
+      "category": 2,
+      "value": 2,
+      "url": "/character/song_qingyue",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "宋婉溪",
+      "name": "宋婉溪",
+      "category": 2,
+      "value": 2,
+      "url": "/character/song_wanxi",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "白骨尊神",
+      "name": "白骨尊神",
+      "category": 1,
+      "value": 1,
+      "url": "/character/baigu_zhunshen",
+      "tier": "核心配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "庄国朝廷",
+      "name": "庄国朝廷",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "封越",
+      "name": "封越",
+      "category": 3,
+      "value": 3,
+      "url": "/character/feng_yue",
+      "tier": "支线角色",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "池定方",
+      "name": "池定方",
+      "category": 3,
+      "value": 1,
+      "url": "/character/chi_dingfang",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "池陆",
+      "name": "池陆",
+      "category": 3,
+      "value": 2,
+      "url": "/character/chi_lu",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "郑肥",
+      "name": "郑肥",
+      "category": 2,
+      "value": 3,
+      "url": "/character/zheng_fei",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "李瘦",
+      "name": "李瘦",
+      "category": 2,
+      "value": 3,
+      "url": "/character/li_shou",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "燕子",
+      "name": "燕子",
+      "category": 2,
+      "value": 2,
+      "url": "/character/yan_zi",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "梁九",
+      "name": "梁九",
+      "category": 3,
+      "value": 1,
+      "url": "/character/liang_jiu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "方鹤翎",
+      "name": "方鹤翎",
+      "category": 2,
+      "value": 1,
+      "url": "/character/fang_heling",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "卦师",
+      "name": "卦师",
+      "category": 2,
+      "value": 1,
+      "url": "/character/gua_shi",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "焦武",
+      "name": "焦武",
+      "category": 3,
+      "value": 2,
+      "url": "/character/jiao_wu",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "薛明义",
+      "name": "薛明义",
+      "category": 3,
+      "value": 1,
+      "url": "/character/xue_mingyi",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "墨惊羽",
+      "name": "墨惊羽",
+      "category": 3,
+      "value": 1,
+      "url": "/character/mo_jingyu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "姜无量",
+      "name": "姜无量",
+      "category": 4,
+      "value": 1,
+      "url": "/character/jiang_wuliang",
+      "tier": "客串角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "竹碧琼",
+      "name": "竹碧琼",
+      "category": 2,
+      "value": 4,
+      "url": "/character/zhu_biqiong",
+      "tier": "重要配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "林有邪",
+      "name": "林有邪",
+      "category": 2,
+      "value": 3,
+      "url": "/character/lin_youxie",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "林况",
+      "name": "林况",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "碧珠婆婆",
+      "name": "碧珠婆婆",
+      "category": 2,
+      "value": 2,
+      "url": "/character/bi_zhu_popo",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "范清清",
+      "name": "范清清",
+      "category": 2,
+      "value": 2,
+      "url": "/character/fan_qingqing",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "许象乾",
+      "name": "许象乾",
+      "category": 2,
+      "value": 2,
+      "url": "/character/xu_xianggan",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "杨柳",
+      "name": "杨柳",
+      "category": 3,
+      "value": 1,
+      "url": "/character/yang_liu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "许象乾/杨柳",
+      "name": "许象乾/杨柳",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "照无颜",
+      "name": "照无颜",
+      "category": 3,
+      "value": 1,
+      "url": "/character/zhao_wuyan",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "钓海楼",
+      "name": "钓海楼",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "陈治涛",
+      "name": "陈治涛",
+      "category": 2,
+      "value": 1,
+      "url": "/character/chen_zhitao",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "危寻",
+      "name": "危寻",
+      "category": 1,
+      "value": 1,
+      "url": "/character/wei_xun",
+      "tier": "核心配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "崇光真人",
+      "name": "崇光真人",
+      "category": 2,
+      "value": 1,
+      "url": "/character/chongguang_zhenren",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "海京平",
+      "name": "海京平",
+      "category": 2,
+      "value": 1,
+      "url": "/character/hai_jingping",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "李龙川",
+      "name": "李龙川",
+      "category": 2,
+      "value": 1,
+      "url": "/character/li_longchuan",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "丁景山",
+      "name": "丁景山",
+      "category": 2,
+      "value": 2,
+      "url": "/character/ding_jingshan",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "白象王",
+      "name": "白象王",
+      "category": 2,
+      "value": 1,
+      "url": "/character/bai_xiangwang",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "鱼万谷",
+      "name": "鱼万谷",
+      "category": 2,
+      "value": 1,
+      "url": "/character/yu_wangu",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "鱼嗣庆",
+      "name": "鱼嗣庆",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "水鹰嵘",
+      "name": "水鹰嵘",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "褚密",
+      "name": "褚密",
+      "category": 3,
+      "value": 1,
+      "url": "/character/chu_mi",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "陈艮",
+      "name": "陈艮",
+      "category": 3,
+      "value": 2,
+      "url": "/character/chen_gen",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "阎伽",
+      "name": "阎伽",
+      "category": 3,
+      "value": 2,
+      "url": "/character/yan_jia",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "符彦青",
+      "name": "符彦青",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "孙小蛮",
+      "name": "孙小蛮",
+      "category": 2,
+      "value": 2,
+      "url": "/character/sun_xiaoman",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "王骜",
+      "name": "王骜",
+      "category": 2,
+      "value": 3,
+      "url": "/character/wang_ao",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "血王",
+      "name": "血王",
+      "category": 5,
+      "value": 2,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "季少卿",
+      "name": "季少卿",
+      "category": 2,
+      "value": 4,
+      "url": "/character/ji_shaoqing",
+      "tier": "重要配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "包嵩",
+      "name": "包嵩",
+      "category": 3,
+      "value": 2,
+      "url": "/character/bao_song",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "辜怀信",
+      "name": "辜怀信",
+      "category": 5,
+      "value": 2,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "乌列",
+      "name": "乌列",
+      "category": 2,
+      "value": 2,
+      "url": "/character/wu_lie",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "田焕文",
+      "name": "田焕文",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "吕宗骁",
+      "name": "吕宗骁",
+      "category": 2,
+      "value": 1,
+      "url": "/character/lu_zongxiao",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "曹皆",
+      "name": "曹皆",
+      "category": 2,
+      "value": 2,
+      "url": "/character/cao_jie",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "春死军",
+      "name": "春死军",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "计昭南",
+      "name": "计昭南",
+      "category": 2,
+      "value": 3,
+      "url": "/character/ji_zhaonan",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "左光殊",
+      "name": "左光殊",
+      "category": 2,
+      "value": 2,
+      "url": "/character/zuo_guangshu",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "岳冷/厉有疚",
+      "name": "岳冷/厉有疚",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "宇文铎",
+      "name": "宇文铎",
+      "category": 2,
+      "value": 2,
+      "url": "/character/yu_wen_duo",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "赫连云云",
+      "name": "赫连云云",
+      "category": 2,
+      "value": 3,
+      "url": "/character/helian_yunyun",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "邓岳",
+      "name": "邓岳",
+      "category": 2,
+      "value": 1,
+      "url": "/character/deng_yue",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "牧国王庭",
+      "name": "牧国王庭",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "向前",
+      "name": "向前",
+      "category": 2,
+      "value": 2,
+      "url": "/character/xiang_qian",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "卫瑜",
+      "name": "卫瑜",
+      "category": 3,
+      "value": 1,
+      "url": "/character/wei_yu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "秦至臻",
+      "name": "秦至臻",
+      "category": 2,
+      "value": 3,
+      "url": "/character/qin_zhizhen",
+      "tier": "重要配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "慕容龙且",
+      "name": "慕容龙且",
+      "category": 2,
+      "value": 1,
+      "url": "/character/murong_longqie",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "慕容奋武",
+      "name": "慕容奋武",
+      "category": 3,
+      "value": 1,
+      "url": "/character/murong_fenwu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "黄舍利",
+      "name": "黄舍利",
+      "category": 2,
+      "value": 4,
+      "url": "/character/huang_sheli",
+      "tier": "重要配角",
+      "symbolSize": 26
+    },
+    {
+      "id": "黄弗",
+      "name": "黄弗",
+      "category": 3,
+      "value": 1,
+      "url": "/character/huang_fu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "中山渭孙",
+      "name": "中山渭孙",
+      "category": 2,
+      "value": 2,
+      "url": "/character/zhongshan_weisun",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "中山燕文",
+      "name": "中山燕文",
+      "category": 3,
+      "value": 1,
+      "url": "/character/zhongshan_yanwen",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "夜澜儿",
+      "name": "夜澜儿",
+      "category": 2,
+      "value": 1,
+      "url": "/character/ye_laner",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "楚帝",
+      "name": "楚帝",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "金戈",
+      "name": "金戈",
+      "category": 3,
+      "value": 2,
+      "url": "/character/jin_ge",
+      "tier": "支线角色",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "金昙度",
+      "name": "金昙度",
+      "category": 3,
+      "value": 1,
+      "url": "/character/jin_tandu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "苍瞑",
+      "name": "苍瞑",
+      "category": 3,
+      "value": 1,
+      "url": "/character/cang_ming",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "牧国神殿",
+      "name": "牧国神殿",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "夏侯烈",
+      "name": "夏侯烈",
+      "category": 2,
+      "value": 2,
+      "url": "/character/xiahou_lie",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "荆国出征队伍",
+      "name": "荆国出征队伍",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "竹素瑶",
+      "name": "竹素瑶",
+      "category": 2,
+      "value": 1,
+      "url": "/character/zhu_suyao",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "虚泽甫",
+      "name": "虚泽甫",
+      "category": 2,
+      "value": 1,
+      "url": "/character/xu_ze_fu",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "齐帝姜述",
+      "name": "齐帝姜述",
+      "category": 5,
+      "value": 4,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 26
+    },
+    {
+      "id": "何皇后",
+      "name": "何皇后",
+      "category": 2,
+      "value": 1,
+      "url": "/character/he_huanghou",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "姜无华",
+      "name": "姜无华",
+      "category": 1,
+      "value": 2,
+      "url": "/character/jiang_wuhua",
+      "tier": "核心配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "姜无弃",
+      "name": "姜无弃",
+      "category": 1,
+      "value": 3,
+      "url": "/character/jiang_wuqi",
+      "tier": "核心配角",
+      "symbolSize": 23.856406460551018
+    },
+    {
+      "id": "姜梦熊",
+      "name": "姜梦熊",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "江离梦",
+      "name": "江离梦",
+      "category": 2,
+      "value": 1,
+      "url": "/character/jiang_limeng",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "太寅",
+      "name": "太寅",
+      "category": 2,
+      "value": 1,
+      "url": "/character/tai_yin",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "那良",
+      "name": "那良",
+      "category": 3,
+      "value": 1,
+      "url": "/character/na_liang",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "斗昭",
+      "name": "斗昭",
+      "category": 2,
+      "value": 2,
+      "url": "/character/dou_zhao",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "甘长安",
+      "name": "甘长安",
+      "category": 2,
+      "value": 1,
+      "url": "/character/gan_changan",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "燕少飞",
+      "name": "燕少飞",
+      "category": 2,
+      "value": 1,
+      "url": "/character/yan_shaofei",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "耶律止",
+      "name": "耶律止",
+      "category": 3,
+      "value": 1,
+      "url": "/character/yelv_zhi",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "触悯",
+      "name": "触悯",
+      "category": 2,
+      "value": 1,
+      "url": "/character/chu_min",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "林羡",
+      "name": "林羡",
+      "category": 2,
+      "value": 1,
+      "url": "/character/lin_xian",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "萧恕",
+      "name": "萧恕",
+      "category": 3,
+      "value": 1,
+      "url": "/character/xiao_shu",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "东郭豹",
+      "name": "东郭豹",
+      "category": 3,
+      "value": 1,
+      "url": "/character/dongguo_bao",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "冼南魁",
+      "name": "冼南魁",
+      "category": 3,
+      "value": 1,
+      "url": "/character/xian_nankui",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "那摩多",
+      "name": "那摩多",
+      "category": 3,
+      "value": 1,
+      "url": "/character/na_mo_duo",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "项北",
+      "name": "项北",
+      "category": 2,
+      "value": 1,
+      "url": "/character/xiang_bei",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "秦帝",
+      "name": "秦帝",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "李一",
+      "name": "李一",
+      "category": 2,
+      "value": 1,
+      "url": "/character/li_yi",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "景国",
+      "name": "景国",
+      "category": 5,
+      "value": 1,
+      "url": null,
+      "tier": "其他",
+      "symbolSize": 18
+    },
+    {
+      "id": "田安平",
+      "name": "田安平",
+      "category": 2,
+      "value": 2,
+      "url": "/character/tian_anping",
+      "tier": "重要配角",
+      "symbolSize": 21.31370849898476
+    },
+    {
+      "id": "柳啸",
+      "name": "柳啸",
+      "category": 2,
+      "value": 1,
+      "url": "/character/liu_xiao",
+      "tier": "重要配角",
+      "symbolSize": 18
+    },
+    {
+      "id": "田希礼",
+      "name": "田希礼",
+      "category": 3,
+      "value": 1,
+      "url": "/character/tian_xili",
+      "tier": "支线角色",
+      "symbolSize": 18
+    },
+    {
+      "id": "柳应麒",
+      "name": "柳应麒",
+      "category": 3,
+      "value": 1,
+      "url": "/character/liu_yingqi",
+      "tier": "支线角色",
+      "symbolSize": 18
+    }
+  ],
+  "links": [
+    {
+      "source": "姜望",
+      "target": "姜安安",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "姜望",
+      "target": "凌河",
+      "relation": "结义同伴",
+      "value": "结义同伴"
+    },
+    {
+      "source": "姜望",
+      "target": "杜野虎",
+      "relation": "结义同伴",
+      "value": "结义同伴"
+    },
+    {
+      "source": "姜望",
+      "target": "赵汝成",
+      "relation": "结义同伴",
+      "value": "结义同伴"
+    },
+    {
+      "source": "姜望",
+      "target": "董阿",
+      "relation": "师长-门生→生死仇",
+      "value": "师长-门生→生死仇"
+    },
+    {
+      "source": "姜望",
+      "target": "左光烈",
+      "relation": "机缘",
+      "value": "机缘"
+    },
+    {
+      "source": "姜望",
+      "target": "叶青雨",
+      "relation": "友好",
+      "value": "友好"
+    },
+    {
+      "source": "姜望",
+      "target": "重玄胜",
+      "relation": "盟友合作",
+      "value": "盟友合作"
+    },
+    {
+      "source": "姜望",
+      "target": "晏抚",
+      "relation": "政事支持",
+      "value": "政事支持"
+    },
+    {
+      "source": "姜望",
+      "target": "妙玉",
+      "relation": "引路/短期盟友",
+      "value": "引路/短期盟友"
+    },
+    {
+      "source": "姜望",
+      "target": "姜魇",
+      "relation": "共生-制衡",
+      "value": "共生-制衡"
+    },
+    {
+      "source": "姜望",
+      "target": "王夷吾",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "雷占乾",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "谢宝树",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "姜望",
+      "target": "崔杼",
+      "relation": "对手/刺君案",
+      "value": "对手/刺君案"
+    },
+    {
+      "source": "姜望",
+      "target": "张咏",
+      "relation": "交锋/警惕",
+      "value": "交锋/警惕"
+    },
+    {
+      "source": "姜望",
+      "target": "白骨道",
+      "relation": "敌对势力",
+      "value": "敌对势力"
+    },
+    {
+      "source": "姜望",
+      "target": "胡少孟",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "姜望",
+      "target": "莫子楚",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "姜望",
+      "target": "阳建德",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "姜望",
+      "target": "杜如晦",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "姜望",
+      "target": "庄承乾",
+      "relation": "生死对立",
+      "value": "生死对立"
+    },
+    {
+      "source": "姜望",
+      "target": "苦觉",
+      "relation": "救命师缘",
+      "value": "救命师缘"
+    },
+    {
+      "source": "姜望",
+      "target": "观衍",
+      "relation": "师缘/护道",
+      "value": "师缘/护道"
+    },
+    {
+      "source": "姜望",
+      "target": "易星辰",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "姜望",
+      "target": "重玄褚良",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "姜望",
+      "target": "宁霜容",
+      "relation": "对手/陪练",
+      "value": "对手/陪练"
+    },
+    {
+      "source": "姜望",
+      "target": "丘吉",
+      "relation": "皇朝秘术引路",
+      "value": "皇朝秘术引路"
+    },
+    {
+      "source": "姜望",
+      "target": "岳冷",
+      "relation": "青牌前辈/护持",
+      "value": "青牌前辈/护持"
+    },
+    {
+      "source": "姜望",
+      "target": "厉有疚",
+      "relation": "青牌前辈/护持",
+      "value": "青牌前辈/护持"
+    },
+    {
+      "source": "姜望",
+      "target": "姜无忧",
+      "relation": "交易合作",
+      "value": "交易合作"
+    },
+    {
+      "source": "姜望",
+      "target": "姜无邪",
+      "relation": "交易未成",
+      "value": "交易未成"
+    },
+    {
+      "source": "姜望",
+      "target": "封鸣",
+      "relation": "救援",
+      "value": "救援"
+    },
+    {
+      "source": "姜望",
+      "target": "九大人魔",
+      "relation": "敌对势力",
+      "value": "敌对势力"
+    },
+    {
+      "source": "张临川",
+      "target": "白骨道",
+      "relation": "道院师长（表）/白骨使者（里）",
+      "value": "道院师长（表）/白骨使者（里）"
+    },
+    {
+      "source": "王长吉",
+      "target": "白骨道",
+      "relation": "白骨道子",
+      "value": "白骨道子"
+    },
+    {
+      "source": "妙玉",
+      "target": "白骨道",
+      "relation": "白骨圣女",
+      "value": "白骨圣女"
+    },
+    {
+      "source": "妙玉",
+      "target": "王长吉",
+      "relation": "关联",
+      "value": "关联"
+    },
+    {
+      "source": "张临川",
+      "target": "王长吉",
+      "relation": "关联",
+      "value": "关联"
+    },
+    {
+      "source": "董阿",
+      "target": "白骨道",
+      "relation": "对抗",
+      "value": "对抗"
+    },
+    {
+      "source": "祝唯我",
+      "target": "姜望等道院弟子",
+      "relation": "道院天骄标杆",
+      "value": "道院天骄标杆"
+    },
+    {
+      "source": "重玄胜",
+      "target": "姜望",
+      "relation": "盟友",
+      "value": "盟友"
+    },
+    {
+      "source": "重玄胜",
+      "target": "重玄褚良",
+      "relation": "支持者",
+      "value": "支持者"
+    },
+    {
+      "source": "重玄胜",
+      "target": "重玄遵",
+      "relation": "竞争",
+      "value": "竞争"
+    },
+    {
+      "source": "重玄遵",
+      "target": "王夷吾",
+      "relation": "盟友",
+      "value": "盟友"
+    },
+    {
+      "source": "王夷吾",
+      "target": "姜望",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "王夷吾",
+      "target": "重玄胜",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "重玄遵",
+      "target": "重玄明光",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "重玄遵",
+      "target": "重玄云波",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "胡少孟",
+      "target": "莫子楚",
+      "relation": "关联",
+      "value": "关联"
+    },
+    {
+      "source": "胡少孟",
+      "target": "姜望",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "莫子楚",
+      "target": "姜望",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "阳建德",
+      "target": "阳国王室",
+      "relation": "阳国国君",
+      "value": "阳国国君"
+    },
+    {
+      "source": "叶凌霄",
+      "target": "叶青雨",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "姜望",
+      "target": "叶青雨",
+      "relation": "盟友合作",
+      "value": "盟友合作"
+    },
+    {
+      "source": "姜望",
+      "target": "斗勉",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "云游翁",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "灵空殿",
+      "relation": "从属关系",
+      "value": "从属关系"
+    },
+    {
+      "source": "庄高羡",
+      "target": "杜如晦",
+      "relation": "君臣",
+      "value": "君臣"
+    },
+    {
+      "source": "庄高羡",
+      "target": "董阿",
+      "relation": "君臣",
+      "value": "君臣"
+    },
+    {
+      "source": "庄高羡",
+      "target": "皇甫端明",
+      "relation": "君臣",
+      "value": "君臣"
+    },
+    {
+      "source": "韩殷",
+      "target": "韩煦",
+      "relation": "父子/君臣",
+      "value": "父子/君臣"
+    },
+    {
+      "source": "韩殷",
+      "target": "庄高羡",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "李应",
+      "target": "韩殷",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "祝唯我",
+      "target": "庄高羡",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "祝唯我",
+      "target": "杜如晦",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "林正仁",
+      "target": "庄国道院",
+      "relation": "从属关系",
+      "value": "从属关系"
+    },
+    {
+      "source": "段离",
+      "target": "杜野虎",
+      "relation": "父辈/托付",
+      "value": "父辈/托付"
+    },
+    {
+      "source": "杜如晦",
+      "target": "段离",
+      "relation": "处置",
+      "value": "处置"
+    },
+    {
+      "source": "宋横江",
+      "target": "清江水府",
+      "relation": "从属关系",
+      "value": "从属关系"
+    },
+    {
+      "source": "姜望",
+      "target": "宋横江",
+      "relation": "对手/敌对",
+      "value": "对手/敌对"
+    },
+    {
+      "source": "宋清约",
+      "target": "宋横江",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "宋婉溪",
+      "target": "宋横江",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "庄承乾",
+      "target": "白骨尊神",
+      "relation": "对弈",
+      "value": "对弈"
+    },
+    {
+      "source": "宋婉溪",
+      "target": "庄承乾",
+      "relation": "受控",
+      "value": "受控"
+    },
+    {
+      "source": "宋清约",
+      "target": "庄国朝廷",
+      "relation": "从属关系",
+      "value": "从属关系"
+    },
+    {
+      "source": "封越",
+      "target": "封鸣",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "池定方",
+      "target": "封越",
+      "relation": "同门/宗主",
+      "value": "同门/宗主"
+    },
+    {
+      "source": "池定方",
+      "target": "池陆",
+      "relation": "同门/宗主",
+      "value": "同门/宗主"
+    },
+    {
+      "source": "封越",
+      "target": "池陆",
+      "relation": "竞争/同宗",
+      "value": "竞争/同宗"
+    },
+    {
+      "source": "郑肥",
+      "target": "李瘦",
+      "relation": "同伴",
+      "value": "同伴"
+    },
+    {
+      "source": "燕子",
+      "target": "梁九",
+      "relation": "庇护",
+      "value": "庇护"
+    },
+    {
+      "source": "方鹤翎",
+      "target": "郑肥",
+      "relation": "同伙",
+      "value": "同伙"
+    },
+    {
+      "source": "方鹤翎",
+      "target": "李瘦",
+      "relation": "同伙",
+      "value": "同伙"
+    },
+    {
+      "source": "方鹤翎",
+      "target": "燕子",
+      "relation": "同伙",
+      "value": "同伙"
+    },
+    {
+      "source": "卦师",
+      "target": "郑肥",
+      "relation": "上位者",
+      "value": "上位者"
+    },
+    {
+      "source": "卦师",
+      "target": "李瘦",
+      "relation": "上位者",
+      "value": "上位者"
+    },
+    {
+      "source": "焦武",
+      "target": "薛明义",
+      "relation": "对立",
+      "value": "对立"
+    },
+    {
+      "source": "墨惊羽",
+      "target": "焦武",
+      "relation": "座上宾",
+      "value": "座上宾"
+    },
+    {
+      "source": "姜无忧",
+      "target": "姜无邪",
+      "relation": "亲属",
+      "value": "亲属"
+    },
+    {
+      "source": "姜无忧",
+      "target": "姜无量",
+      "relation": "兄妹",
+      "value": "兄妹"
+    },
+    {
+      "source": "姜望",
+      "target": "重玄胜",
+      "relation": "盟友合作",
+      "value": "盟友合作"
+    },
+    {
+      "source": "姜望",
+      "target": "竹碧琼",
+      "relation": "关注/救援",
+      "value": "关注/救援"
+    },
+    {
+      "source": "姜望",
+      "target": "林有邪",
+      "relation": "同僚/试探",
+      "value": "同僚/试探"
+    },
+    {
+      "source": "林有邪",
+      "target": "林况",
+      "relation": "师承/传承",
+      "value": "师承/传承"
+    },
+    {
+      "source": "姜望",
+      "target": "碧珠婆婆",
+      "relation": "交涉",
+      "value": "交涉"
+    },
+    {
+      "source": "姜望",
+      "target": "竹碧琼",
+      "relation": "救援",
+      "value": "救援"
+    },
+    {
+      "source": "姜望",
+      "target": "范清清",
+      "relation": "交涉",
+      "value": "交涉"
+    },
+    {
+      "source": "许象乾",
+      "target": "杨柳",
+      "relation": "竞争",
+      "value": "竞争"
+    },
+    {
+      "source": "许象乾/杨柳",
+      "target": "照无颜",
+      "relation": "追求",
+      "value": "追求"
+    },
+    {
+      "source": "姜无忧",
+      "target": "晏抚",
+      "relation": "训诫",
+      "value": "训诫"
+    },
+    {
+      "source": "钓海楼",
+      "target": "陈治涛",
+      "relation": "师兄统领",
+      "value": "师兄统领"
+    },
+    {
+      "source": "姜望",
+      "target": "碧珠婆婆",
+      "relation": "生死对立",
+      "value": "生死对立"
+    },
+    {
+      "source": "姜望",
+      "target": "危寻",
+      "relation": "裁决者",
+      "value": "裁决者"
+    },
+    {
+      "source": "姜望",
+      "target": "崇光真人",
+      "relation": "对峙",
+      "value": "对峙"
+    },
+    {
+      "source": "姜望",
+      "target": "海京平",
+      "relation": "对峙",
+      "value": "对峙"
+    },
+    {
+      "source": "姜望",
+      "target": "重玄胜",
+      "relation": "送行援助",
+      "value": "送行援助"
+    },
+    {
+      "source": "姜望",
+      "target": "姜无忧",
+      "relation": "送行援助",
+      "value": "送行援助"
+    },
+    {
+      "source": "姜望",
+      "target": "晏抚",
+      "relation": "送行援助",
+      "value": "送行援助"
+    },
+    {
+      "source": "姜望",
+      "target": "许象乾",
+      "relation": "送行援助",
+      "value": "送行援助"
+    },
+    {
+      "source": "姜望",
+      "target": "李龙川",
+      "relation": "送行援助",
+      "value": "送行援助"
+    },
+    {
+      "source": "姜望",
+      "target": "丁景山",
+      "relation": "袍泽关系",
+      "value": "袍泽关系"
+    },
+    {
+      "source": "姜望",
+      "target": "白象王",
+      "relation": "敌对势力",
+      "value": "敌对势力"
+    },
+    {
+      "source": "姜望",
+      "target": "鱼万谷",
+      "relation": "敌对势力",
+      "value": "敌对势力"
+    },
+    {
+      "source": "姜望",
+      "target": "鱼嗣庆",
+      "relation": "生死对立",
+      "value": "生死对立"
+    },
+    {
+      "source": "姜望",
+      "target": "水鹰嵘",
+      "relation": "生死对立",
+      "value": "生死对立"
+    },
+    {
+      "source": "姜望",
+      "target": "褚密",
+      "relation": "短暂协作",
+      "value": "短暂协作"
+    },
+    {
+      "source": "姜望",
+      "target": "陈艮",
+      "relation": "盟友/救援",
+      "value": "盟友/救援"
+    },
+    {
+      "source": "姜望",
+      "target": "阎伽",
+      "relation": "盟友/救援",
+      "value": "盟友/救援"
+    },
+    {
+      "source": "姜望",
+      "target": "符彦青",
+      "relation": "同袍协作",
+      "value": "同袍协作"
+    },
+    {
+      "source": "姜望",
+      "target": "丁景山",
+      "relation": "同袍协作",
+      "value": "同袍协作"
+    },
+    {
+      "source": "姜望",
+      "target": "孙小蛮",
+      "relation": "旧识/援手",
+      "value": "旧识/援手"
+    },
+    {
+      "source": "姜望",
+      "target": "王骜",
+      "relation": "旧识/援手",
+      "value": "旧识/援手"
+    },
+    {
+      "source": "姜望",
+      "target": "血王",
+      "relation": "对峙",
+      "value": "对峙"
+    },
+    {
+      "source": "姜望",
+      "target": "季少卿",
+      "relation": "生死决斗",
+      "value": "生死决斗"
+    },
+    {
+      "source": "姜望",
+      "target": "包嵩",
+      "relation": "试剑",
+      "value": "试剑"
+    },
+    {
+      "source": "孙小蛮",
+      "target": "王骜",
+      "relation": "师徒",
+      "value": "师徒"
+    },
+    {
+      "source": "王骜",
+      "target": "血王",
+      "relation": "对峙",
+      "value": "对峙"
+    },
+    {
+      "source": "陈艮",
+      "target": "阎伽",
+      "relation": "同僚",
+      "value": "同僚"
+    },
+    {
+      "source": "包嵩",
+      "target": "季少卿",
+      "relation": "同门",
+      "value": "同门"
+    },
+    {
+      "source": "季少卿",
+      "target": "辜怀信",
+      "relation": "师长-门生",
+      "value": "师长-门生"
+    },
+    {
+      "source": "姜无忧",
+      "target": "季少卿",
+      "relation": "公证/制止",
+      "value": "公证/制止"
+    },
+    {
+      "source": "姜望",
+      "target": "范清清",
+      "relation": "主从/庇护",
+      "value": "主从/庇护"
+    },
+    {
+      "source": "姜望",
+      "target": "乌列",
+      "relation": "同僚/互助",
+      "value": "同僚/互助"
+    },
+    {
+      "source": "姜望",
+      "target": "林有邪",
+      "relation": "同僚/互助",
+      "value": "同僚/互助"
+    },
+    {
+      "source": "乌列",
+      "target": "田焕文",
+      "relation": "追查/对立",
+      "value": "追查/对立"
+    },
+    {
+      "source": "姜望",
+      "target": "吕宗骁",
+      "relation": "合作",
+      "value": "合作"
+    },
+    {
+      "source": "竹碧琼",
+      "target": "辜怀信",
+      "relation": "师长-门生",
+      "value": "师长-门生"
+    },
+    {
+      "source": "曹皆",
+      "target": "春死军",
+      "relation": "统帅",
+      "value": "统帅"
+    },
+    {
+      "source": "易星辰",
+      "target": "姜望",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "易星辰",
+      "target": "计昭南",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "易星辰",
+      "target": "重玄遵",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "重玄褚良",
+      "target": "姜望",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "重玄褚良",
+      "target": "计昭南",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "重玄褚良",
+      "target": "重玄遵",
+      "relation": "指点",
+      "value": "指点"
+    },
+    {
+      "source": "宁霜容",
+      "target": "姜望",
+      "relation": "对手/切磋",
+      "value": "对手/切磋"
+    },
+    {
+      "source": "左光殊",
+      "target": "姜望",
+      "relation": "互教",
+      "value": "互教"
+    },
+    {
+      "source": "岳冷/厉有疚",
+      "target": "姜望",
+      "relation": "护持",
+      "value": "护持"
+    },
+    {
+      "source": "赵汝成",
+      "target": "宇文铎",
+      "relation": "同行/情报",
+      "value": "同行/情报"
+    },
+    {
+      "source": "赵汝成",
+      "target": "赫连云云",
+      "relation": "接触",
+      "value": "接触"
+    },
+    {
+      "source": "赵汝成",
+      "target": "邓岳",
+      "relation": "长辈/护持",
+      "value": "长辈/护持"
+    },
+    {
+      "source": "赫连云云",
+      "target": "牧国王庭",
+      "relation": "皇室",
+      "value": "皇室"
+    },
+    {
+      "source": "向前",
+      "target": "卫瑜",
+      "relation": "问剑/击败",
+      "value": "问剑/击败"
+    },
+    {
+      "source": "向前",
+      "target": "秦至臻",
+      "relation": "约战/对手",
+      "value": "约战/对手"
+    },
+    {
+      "source": "慕容龙且",
+      "target": "慕容奋武",
+      "relation": "养父",
+      "value": "养父"
+    },
+    {
+      "source": "黄舍利",
+      "target": "黄弗",
+      "relation": "父女",
+      "value": "父女"
+    },
+    {
+      "source": "中山渭孙",
+      "target": "中山燕文",
+      "relation": "祖孙",
+      "value": "祖孙"
+    },
+    {
+      "source": "夜澜儿",
+      "target": "楚帝",
+      "relation": "君臣",
+      "value": "君臣"
+    },
+    {
+      "source": "金戈",
+      "target": "金昙度",
+      "relation": "父子",
+      "value": "父子"
+    },
+    {
+      "source": "苍瞑",
+      "target": "牧国神殿",
+      "relation": "所属",
+      "value": "所属"
+    },
+    {
+      "source": "夏侯烈",
+      "target": "荆国出征队伍",
+      "relation": "统领",
+      "value": "统领"
+    },
+    {
+      "source": "竹碧琼",
+      "target": "竹素瑶",
+      "relation": "亲属/镜花线",
+      "value": "亲属/镜花线"
+    },
+    {
+      "source": "姜望",
+      "target": "虚泽甫",
+      "relation": "合作/信任",
+      "value": "合作/信任"
+    },
+    {
+      "source": "姜望",
+      "target": "左光殊",
+      "relation": "对手/友好",
+      "value": "对手/友好"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "何皇后",
+      "relation": "配偶",
+      "value": "配偶"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "姜无华",
+      "relation": "父子/父女",
+      "value": "父子/父女"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "姜无忧",
+      "relation": "父子/父女",
+      "value": "父子/父女"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "姜无邪",
+      "relation": "父子/父女",
+      "value": "父子/父女"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "姜无弃",
+      "relation": "父子/父女",
+      "value": "父子/父女"
+    },
+    {
+      "source": "姜无弃",
+      "target": "雷占乾",
+      "relation": "亲族",
+      "value": "亲族"
+    },
+    {
+      "source": "姜无忧",
+      "target": "姜望",
+      "relation": "支持/押注",
+      "value": "支持/押注"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "姜望",
+      "relation": "赏识",
+      "value": "赏识"
+    },
+    {
+      "source": "计昭南",
+      "target": "姜梦熊",
+      "relation": "师徒",
+      "value": "师徒"
+    },
+    {
+      "source": "姜望",
+      "target": "叶青雨",
+      "relation": "通信/互助",
+      "value": "通信/互助"
+    },
+    {
+      "source": "姜望",
+      "target": "秦至臻",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "林正仁",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "林正仁",
+      "target": "江离梦",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "林正仁",
+      "target": "杜如晦",
+      "relation": "君臣",
+      "value": "君臣"
+    },
+    {
+      "source": "赵汝成",
+      "target": "赫连云云",
+      "relation": "合作/牵引",
+      "value": "合作/牵引"
+    },
+    {
+      "source": "赵汝成",
+      "target": "金戈",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "赵汝成",
+      "target": "宇文铎",
+      "relation": "盟友",
+      "value": "盟友"
+    },
+    {
+      "source": "重玄遵",
+      "target": "太寅",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "重玄遵",
+      "target": "那良",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "重玄遵",
+      "target": "斗昭",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "斗昭",
+      "target": "甘长安",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "斗昭",
+      "target": "重玄遵",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "燕少飞",
+      "target": "中山渭孙",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "黄舍利",
+      "target": "耶律止",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "触悯",
+      "target": "林羡",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "触悯",
+      "target": "萧恕",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "触悯",
+      "target": "东郭豹",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "曹皆",
+      "target": "冼南魁",
+      "relation": "争锋",
+      "value": "争锋"
+    },
+    {
+      "source": "曹皆",
+      "target": "那摩多",
+      "relation": "争锋",
+      "value": "争锋"
+    },
+    {
+      "source": "曹皆",
+      "target": "夏侯烈",
+      "relation": "争锋",
+      "value": "争锋"
+    },
+    {
+      "source": "姜望",
+      "target": "项北",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "秦至臻",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "姜望",
+      "target": "黄舍利",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "赵汝成",
+      "target": "黄舍利",
+      "relation": "对手",
+      "value": "对手"
+    },
+    {
+      "source": "秦帝",
+      "target": "赵汝成",
+      "relation": "点名/称谓",
+      "value": "点名/称谓"
+    },
+    {
+      "source": "姜望",
+      "target": "赵汝成",
+      "relation": "重逢/结义兄弟",
+      "value": "重逢/结义兄弟"
+    },
+    {
+      "source": "李一",
+      "target": "景国",
+      "relation": "所属/代表",
+      "value": "所属/代表"
+    },
+    {
+      "source": "田安平",
+      "target": "柳啸",
+      "relation": "仇敌",
+      "value": "仇敌"
+    },
+    {
+      "source": "田希礼",
+      "target": "柳应麒",
+      "relation": "对峙",
+      "value": "对峙"
+    },
+    {
+      "source": "齐帝姜述",
+      "target": "姜望",
+      "relation": "命令/差遣",
+      "value": "命令/差遣"
+    },
+    {
+      "source": "姜望",
+      "target": "田安平",
+      "relation": "对峙",
+      "value": "对峙"
+    },
+    {
+      "source": "姜望",
+      "target": "姜无华",
+      "relation": "对话/官道指引",
+      "value": "对话/官道指引"
+    },
+    {
+      "source": "姜望",
+      "target": "姜无弃",
+      "relation": "切磋",
+      "value": "切磋"
+    },
+    {
+      "source": "姜无忧",
+      "target": "姜望",
+      "relation": "封赏/披衣",
+      "value": "封赏/披衣"
+    },
+    {
+      "source": "姜望",
+      "target": "谢宝树",
+      "relation": "口角/冲突",
+      "value": "口角/冲突"
+    }
+  ],
+  "categories": [
+    {
+      "name": "主角"
+    },
+    {
+      "name": "核心配角"
+    },
+    {
+      "name": "重要配角"
+    },
+    {
+      "name": "支线角色"
+    },
+    {
+      "name": "客串角色"
+    },
+    {
+      "name": "其他"
+    }
+  ]
+}

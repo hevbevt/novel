@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=ZCOOL+XiaoWei&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --paper: #f6f1e7;
+    --paper-soft: #efe7d9;
+    --ink: #171511;
+    --ink-soft: #3d372f;
+    --accent: #bd342b;
+    --accent-2: #1f7a73;
+    --accent-3: #d49b32;
+    --accent-soft: rgba(189, 52, 43, 0.12);
+    --accent-2-soft: rgba(31, 122, 115, 0.16);
+    --accent-3-soft: rgba(212, 155, 50, 0.12);
+    --ink-soft-bg: rgba(23, 21, 17, 0.06);
+    --card: rgba(255, 255, 255, 0.75);
+    --card-strong: rgba(255, 255, 255, 0.92);
+    --ring: rgba(23, 21, 17, 0.1);
+    --shadow-soft: 0 24px 60px rgba(26, 24, 19, 0.12);
+    --shadow-strong: 0 30px 80px rgba(26, 24, 19, 0.18);
+    --font-display: 'ZCOOL XiaoWei', 'STKaiti', 'KaiTi', serif;
+    --font-sans: 'Noto Sans SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--paper);
+    color: var(--ink);
+  }
+
+  ::selection {
+    background: rgba(189, 52, 43, 0.2);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+
+  .text-ink-soft {
+    color: var(--ink-soft);
+  }
+
+  .card-surface {
+    background: var(--card);
+    border: 1px solid var(--ring);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .card-surface-strong {
+    background: var(--card-strong);
+    border: 1px solid var(--ring);
+    box-shadow: var(--shadow-strong);
+  }
+
+  .input-surface {
+    background: var(--card-strong);
+    border: 1px solid var(--ring);
+    color: var(--ink);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .input-surface:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .shadow-accent {
+    box-shadow: 0 18px 45px rgba(189, 52, 43, 0.28);
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.9s ease both;
+  }
+
+  .animate-float {
+    animation: float 10s ease-in-out infinite;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-float {
+    animation: none !important;
+    transform: none !important;
+  }
+}
