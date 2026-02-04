@@ -7,15 +7,15 @@ const __dirname = path.dirname(__filename);
 
 const sources = [
   {
-    file: path.resolve(__dirname, '../docs/plot/PLOT_ROADMAP_1-500.md'),
+    file: path.resolve(__dirname, '../docs/foreshadowing/TRACKER_1-500.md'),
     fallbackRange: '第1-500章'
   },
   {
-    file: path.resolve(__dirname, '../docs/plot/PLOT_ROADMAP_501-1000.md'),
+    file: path.resolve(__dirname, '../docs/foreshadowing/TRACKER_501-1000.md'),
     fallbackRange: '第501-1000章'
   },
   {
-    file: path.resolve(__dirname, '../docs/plot/PLOT_ROADMAP_1001-1500.md'),
+    file: path.resolve(__dirname, '../docs/foreshadowing/TRACKER_1001-1500.md'),
     fallbackRange: '第1001-1500章'
   }
 ];
@@ -128,12 +128,22 @@ function buildTimeline(evidenceItems) {
 
 function parseItem(lines, range, sourceFile, index) {
   const evidenceIndex = lines.findIndex((line) => line.includes('证据：'));
+  const statusIndex = lines.findIndex((line) => line.includes('状态：'));
   let evidence = '';
+  let status = '追踪中';
   const contentLines = [...lines];
 
   if (evidenceIndex !== -1) {
     evidence = contentLines[evidenceIndex].replace(/.*证据：/, '').trim();
     contentLines.splice(evidenceIndex, 1);
+  }
+  if (statusIndex !== -1) {
+    let adjustedStatusIndex = statusIndex;
+    if (evidenceIndex !== -1 && evidenceIndex < statusIndex) {
+      adjustedStatusIndex -= 1;
+    }
+    status = contentLines[adjustedStatusIndex].replace(/.*状态：/, '').trim() || status;
+    contentLines.splice(adjustedStatusIndex, 1);
   }
 
   let raw = contentLines.join(' ');
@@ -173,7 +183,7 @@ function parseItem(lines, range, sourceFile, index) {
     title,
     summary,
     tag,
-    status: '追踪中',
+    status,
     range,
     evidence,
     evidenceItems,
@@ -190,7 +200,7 @@ function extractSectionItems(text, fallbackRange, sourceFile) {
 
   lines.forEach((line) => {
     const trimmed = line.trim();
-    if (trimmed.startsWith('## ') && trimmed.includes('隐线与伏笔')) {
+    if (trimmed.startsWith('## ') && (trimmed.includes('伏笔列表') || trimmed.includes('隐线与伏笔'))) {
       inSection = true;
       range = extractRangeFromHeading(trimmed, fallbackRange);
       return;

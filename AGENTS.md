@@ -15,9 +15,15 @@
   - `docs/world/CULTIVATION_SYSTEM.md`（修行体系详解）
   - `docs/plot/PLOT_ROADMAP_1-500.md`（第1-500章关键剧情路线图）
   - `docs/plot/PLOT_ROADMAP_501-1000.md`（第501-1000章关键剧情路线图）
+  - `docs/plot/PLOT_ROADMAP_1001-1500.md`（第1001-1500章关键剧情路线图）
   - `docs/CHARACTER_RELATIONS.md`（主要人物关系图）
   - `docs/characters/`（人物介绍目录，按重要度分层）
   - `docs/factions/`（势力介绍目录，按类型分层）
+  - `docs/foreshadowing/INDEX.md`（伏笔库总览）
+  - `docs/foreshadowing/TRACKER_1-500.md`（第1-500章伏笔追踪）
+  - `docs/foreshadowing/TRACKER_501-1000.md`（第501-1000章伏笔追踪）
+  - `docs/foreshadowing/TRACKER_1001-1500.md`（第1001-1500章伏笔追踪）
+  - `docs/foreshadowing/THEMES.md`（伏笔主题合并总表）
 
 ## 2. 优先阅读顺序
 1) 先读 `docs/world/WORLDVIEW.md` 与 `docs/world/CULTIVATION_SYSTEM.md`，避免重复劳动。
@@ -27,8 +33,8 @@
 - 优先用 `rg` 搜索关键词，再用 `sed -n` 小范围阅读。
 - 不要通读整本文件，避免超量加载与重复。
 - 结果里写明“证据出处”，至少给出文件名与章节范围。
- - `docs/plot/PLOT_ROADMAP_501-1000.md` 的结构与格式需与 `docs/plot/PLOT_ROADMAP_1-500.md` 保持一致。
-- 每次按50章推进剧情分析时，需同步：补充角色文档、补充势力文档、更新 `docs/world/WORLDVIEW.md` 与 `docs/world/CULTIVATION_SYSTEM.md`（有新增信息则必须更新）。
+- `docs/plot/PLOT_ROADMAP_501-1000.md`、`docs/plot/PLOT_ROADMAP_1001-1500.md` 的结构与格式需与 `docs/plot/PLOT_ROADMAP_1-500.md` 保持一致。
+- 每次按50章推进剧情分析时，需同步：补充角色文档、补充势力文档、更新 `docs/world/WORLDVIEW.md` 与 `docs/world/CULTIVATION_SYSTEM.md`（有新增信息则必须更新），并更新对应的伏笔追踪文档（`docs/foreshadowing/TRACKER_*.md`）与主题合并总表（`docs/foreshadowing/THEMES.md`）。
 
 ## 4. 输出与证据规范
 - 结论请区分：
