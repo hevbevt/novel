@@ -7,38 +7,38 @@
       "value": 82,
       "url": "/character/jiang_wang",
       "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "score": 95,
+      "symbolSize": 77
     },
     {
       "id": "姜安安",
       "name": "姜安安",
-      "category": 0,
+      "category": 2,
       "value": 1,
       "url": "/character/jiang_anan",
-      "tier": "主角",
-      "score": 88,
-      "symbolSize": 72
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "凌河",
       "name": "凌河",
-      "category": 0,
+      "category": 1,
       "value": 1,
       "url": "/character/ling_he",
-      "tier": "主角",
-      "score": 93,
-      "symbolSize": 76
+      "tier": "核心配角",
+      "score": 50,
+      "symbolSize": 48
     },
     {
       "id": "杜野虎",
       "name": "杜野虎",
-      "category": 0,
+      "category": 1,
       "value": 2,
       "url": "/character/du_yehu",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 52,
+      "symbolSize": 49
     },
     {
       "id": "赵汝成",
@@ -47,38 +47,38 @@
       "value": 10,
       "url": "/character/zhao_rucheng",
       "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "score": 60,
+      "symbolSize": 54
     },
     {
       "id": "董阿",
       "name": "董阿",
-      "category": 0,
+      "category": 1,
       "value": 3,
       "url": "/character/dong_a",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 55,
+      "symbolSize": 51
     },
     {
       "id": "左光烈",
       "name": "左光烈",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/zuo_guanglie",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "叶青雨",
       "name": "叶青雨",
-      "category": 0,
+      "category": 2,
       "value": 4,
       "url": "/character/ye_qingyu",
-      "tier": "主角",
-      "score": 88,
-      "symbolSize": 72
+      "tier": "重要配角",
+      "score": 47,
+      "symbolSize": 46
     },
     {
       "id": "重玄胜",
@@ -87,88 +87,88 @@
       "value": 7,
       "url": "/character/chongxuan_sheng",
       "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "score": 60,
+      "symbolSize": 54
     },
     {
       "id": "晏抚",
       "name": "晏抚",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/yan_fu",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "妙玉",
       "name": "妙玉",
-      "category": 0,
+      "category": 2,
       "value": 3,
       "url": "/character/miao_yu",
-      "tier": "主角",
-      "score": 88,
-      "symbolSize": 72
+      "tier": "重要配角",
+      "score": 49,
+      "symbolSize": 47
     },
     {
       "id": "庄承乾",
       "name": "庄承乾",
-      "category": 0,
+      "category": 1,
       "value": 4,
       "url": "/character/zhuang_chenggan",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 56,
+      "symbolSize": 52
     },
     {
       "id": "王夷吾",
       "name": "王夷吾",
-      "category": 0,
+      "category": 1,
       "value": 3,
       "url": "/character/wang_yiwu",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 55,
+      "symbolSize": 51
     },
     {
       "id": "雷占乾",
       "name": "雷占乾",
-      "category": 0,
+      "category": 2,
       "value": 2,
       "url": "/character/lei_zhangan",
-      "tier": "主角",
-      "score": 88,
-      "symbolSize": 72
+      "tier": "重要配角",
+      "score": 47,
+      "symbolSize": 46
     },
     {
       "id": "谢宝树",
       "name": "谢宝树",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/xie_baoshu",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 31,
+      "symbolSize": 36
     },
     {
       "id": "崔杼",
       "name": "崔杼",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/cui_zhu",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "张咏",
       "name": "张咏",
-      "category": 0,
+      "category": 2,
       "value": 1,
       "url": "/character/zhang_yong",
-      "tier": "主角",
-      "score": 86,
-      "symbolSize": 71
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "白骨道",
@@ -183,152 +183,152 @@
     {
       "id": "胡少孟",
       "name": "胡少孟",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/hu_shaomeng",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "莫子楚",
       "name": "莫子楚",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/mo_zichu",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 44,
+      "symbolSize": 44
     },
     {
       "id": "阳建德",
       "name": "阳建德",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/yang_jiande",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "杜如晦",
       "name": "杜如晦",
-      "category": 0,
+      "category": 1,
       "value": 5,
       "url": "/character/du_ruhui",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 58,
+      "symbolSize": 53
     },
     {
       "id": "苦觉",
       "name": "苦觉",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/kujue",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "观衍",
       "name": "观衍",
-      "category": 0,
+      "category": 2,
       "value": 1,
       "url": "/character/guan_yan",
-      "tier": "主角",
-      "score": 92,
-      "symbolSize": 75
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "易星辰",
       "name": "易星辰",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/yi_xingchen",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "重玄褚良",
       "name": "重玄褚良",
-      "category": 0,
+      "category": 2,
       "value": 3,
       "url": "/character/chongxuan_chuliang",
-      "tier": "主角",
-      "score": 88,
-      "symbolSize": 72
+      "tier": "重要配角",
+      "score": 46,
+      "symbolSize": 45
     },
     {
       "id": "宁霜容",
       "name": "宁霜容",
-      "category": 1,
+      "category": 3,
       "value": 2,
       "url": "/character/ning_shuangrong",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "支线角色",
+      "score": 38,
+      "symbolSize": 40
     },
     {
       "id": "丘吉",
       "name": "丘吉",
-      "category": 2,
+      "category": 4,
       "value": 1,
       "url": "/character/qiu_ji",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "客串角色",
+      "score": 29,
+      "symbolSize": 35
     },
     {
       "id": "岳冷",
       "name": "岳冷",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/yue_leng",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "厉有疚",
       "name": "厉有疚",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/li_youjiu",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "姜无忧",
       "name": "姜无忧",
-      "category": 0,
+      "category": 1,
       "value": 9,
       "url": "/character/jiang_wuyou",
-      "tier": "主角",
-      "score": 97,
-      "symbolSize": 78
+      "tier": "核心配角",
+      "score": 57,
+      "symbolSize": 52
     },
     {
       "id": "姜无邪",
       "name": "姜无邪",
-      "category": 0,
+      "category": 1,
       "value": 3,
       "url": "/character/jiang_wuxie",
-      "tier": "主角",
-      "score": 97,
-      "symbolSize": 78
+      "tier": "核心配角",
+      "score": 53,
+      "symbolSize": 50
     },
     {
       "id": "封鸣",
       "name": "封鸣",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/feng_ming",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 36,
+      "symbolSize": 39
     },
     {
       "id": "九大人魔",
@@ -343,32 +343,32 @@
     {
       "id": "张临川",
       "name": "张临川",
-      "category": 0,
+      "category": 1,
       "value": 2,
       "url": "/character/zhang_linchuan",
-      "tier": "主角",
-      "score": 97,
-      "symbolSize": 78
+      "tier": "核心配角",
+      "score": 54,
+      "symbolSize": 51
     },
     {
       "id": "王长吉",
       "name": "王长吉",
-      "category": 0,
+      "category": 1,
       "value": 3,
       "url": "/character/wang_changji",
-      "tier": "主角",
-      "score": 97,
-      "symbolSize": 78
+      "tier": "核心配角",
+      "score": 54,
+      "symbolSize": 51
     },
     {
       "id": "祝唯我",
       "name": "祝唯我",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/zhu_weiwo",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "姜望等道院弟子",
@@ -383,12 +383,12 @@
     {
       "id": "重玄遵",
       "name": "重玄遵",
-      "category": 0,
+      "category": 1,
       "value": 8,
       "url": "/character/chongxuan_zun",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 58,
+      "symbolSize": 53
     },
     {
       "id": "重玄明光",
@@ -423,12 +423,12 @@
     {
       "id": "叶凌霄",
       "name": "叶凌霄",
-      "category": 0,
+      "category": 2,
       "value": 1,
       "url": "/character/ye_lingxiao",
-      "tier": "主角",
-      "score": 92,
-      "symbolSize": 75
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "斗勉",
@@ -463,62 +463,62 @@
     {
       "id": "庄高羡",
       "name": "庄高羡",
-      "category": 0,
+      "category": 1,
       "value": 4,
       "url": "/character/zhuang_gaoxian",
-      "tier": "主角",
-      "score": 97,
-      "symbolSize": 78
+      "tier": "核心配角",
+      "score": 57,
+      "symbolSize": 52
     },
     {
       "id": "皇甫端明",
       "name": "皇甫端明",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/huangfu_duanming",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "韩殷",
       "name": "韩殷",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/han_yin",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "韩煦",
       "name": "韩煦",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/han_xu",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 44,
+      "symbolSize": 44
     },
     {
       "id": "李应",
       "name": "李应",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/li_ying",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "林正仁",
       "name": "林正仁",
-      "category": 0,
+      "category": 1,
       "value": 4,
       "url": "/character/lin_zhengren",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 56,
+      "symbolSize": 52
     },
     {
       "id": "庄国道院",
@@ -533,22 +533,22 @@
     {
       "id": "段离",
       "name": "段离",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/duan_li",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "宋横江",
       "name": "宋横江",
-      "category": 0,
+      "category": 1,
       "value": 4,
       "url": "/character/song_hengjiang",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 55,
+      "symbolSize": 51
     },
     {
       "id": "清江水府",
@@ -563,32 +563,32 @@
     {
       "id": "宋清约",
       "name": "宋清约",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/song_qingyue",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "宋婉溪",
       "name": "宋婉溪",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/song_wanxi",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "白骨尊神",
       "name": "白骨尊神",
-      "category": 0,
+      "category": 1,
       "value": 1,
       "url": "/character/baigu_zhunshen",
-      "tier": "主角",
-      "score": 100,
-      "symbolSize": 80
+      "tier": "核心配角",
+      "score": 54,
+      "symbolSize": 51
     },
     {
       "id": "庄国朝廷",
@@ -603,152 +603,152 @@
     {
       "id": "封越",
       "name": "封越",
-      "category": 2,
+      "category": 3,
       "value": 3,
       "url": "/character/feng_yue",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 34,
+      "symbolSize": 38
     },
     {
       "id": "池定方",
       "name": "池定方",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/chi_dingfang",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 32,
+      "symbolSize": 36
     },
     {
       "id": "池陆",
       "name": "池陆",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/chi_lu",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 33,
+      "symbolSize": 37
     },
     {
       "id": "郑肥",
       "name": "郑肥",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/zheng_fei",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
-    },
-    {
-      "id": "李瘦",
-      "name": "李瘦",
-      "category": 1,
-      "value": 3,
-      "url": "/character/li_shou",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
-    },
-    {
-      "id": "燕子",
-      "name": "燕子",
-      "category": 1,
-      "value": 2,
-      "url": "/character/yan_zi",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
-    },
-    {
-      "id": "梁九",
-      "name": "梁九",
-      "category": 3,
-      "value": 1,
-      "url": "/character/liang_jiu",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
-    },
-    {
-      "id": "方鹤翎",
-      "name": "方鹤翎",
-      "category": 1,
-      "value": 1,
-      "url": "/character/fang_heling",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
-    },
-    {
-      "id": "卦师",
-      "name": "卦师",
-      "category": 1,
-      "value": 1,
-      "url": "/character/gua_shi",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
-    },
-    {
-      "id": "焦武",
-      "name": "焦武",
-      "category": 2,
-      "value": 2,
-      "url": "/character/jiao_wu",
       "tier": "重要配角",
-      "score": 65,
-      "symbolSize": 58
-    },
-    {
-      "id": "薛明义",
-      "name": "薛明义",
-      "category": 2,
-      "value": 1,
-      "url": "/character/xue_mingyi",
-      "tier": "重要配角",
-      "score": 65,
-      "symbolSize": 58
-    },
-    {
-      "id": "墨惊羽",
-      "name": "墨惊羽",
-      "category": 2,
-      "value": 1,
-      "url": "/character/mo_jingyu",
-      "tier": "重要配角",
-      "score": 63,
-      "symbolSize": 56
-    },
-    {
-      "id": "姜无量",
-      "name": "姜无量",
-      "category": 3,
-      "value": 1,
-      "url": "/character/jiang_wuliang",
-      "tier": "支线角色",
       "score": 43,
       "symbolSize": 44
     },
     {
+      "id": "李瘦",
+      "name": "李瘦",
+      "category": 2,
+      "value": 3,
+      "url": "/character/li_shou",
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
+    },
+    {
+      "id": "燕子",
+      "name": "燕子",
+      "category": 2,
+      "value": 2,
+      "url": "/character/yan_zi",
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
+    },
+    {
+      "id": "梁九",
+      "name": "梁九",
+      "category": 4,
+      "value": 1,
+      "url": "/character/liang_jiu",
+      "tier": "客串角色",
+      "score": 27,
+      "symbolSize": 33
+    },
+    {
+      "id": "方鹤翎",
+      "name": "方鹤翎",
+      "category": 2,
+      "value": 1,
+      "url": "/character/fang_heling",
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
+    },
+    {
+      "id": "卦师",
+      "name": "卦师",
+      "category": 2,
+      "value": 1,
+      "url": "/character/gua_shi",
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
+    },
+    {
+      "id": "焦武",
+      "name": "焦武",
+      "category": 3,
+      "value": 2,
+      "url": "/character/jiao_wu",
+      "tier": "支线角色",
+      "score": 34,
+      "symbolSize": 38
+    },
+    {
+      "id": "薛明义",
+      "name": "薛明义",
+      "category": 3,
+      "value": 1,
+      "url": "/character/xue_mingyi",
+      "tier": "支线角色",
+      "score": 32,
+      "symbolSize": 36
+    },
+    {
+      "id": "墨惊羽",
+      "name": "墨惊羽",
+      "category": 3,
+      "value": 1,
+      "url": "/character/mo_jingyu",
+      "tier": "支线角色",
+      "score": 33,
+      "symbolSize": 37
+    },
+    {
+      "id": "姜无量",
+      "name": "姜无量",
+      "category": 4,
+      "value": 1,
+      "url": "/character/jiang_wuliang",
+      "tier": "客串角色",
+      "score": 23,
+      "symbolSize": 31
+    },
+    {
       "id": "竹碧琼",
       "name": "竹碧琼",
-      "category": 0,
+      "category": 1,
       "value": 4,
       "url": "/character/zhu_biqiong",
-      "tier": "主角",
-      "score": 86,
-      "symbolSize": 71
+      "tier": "核心配角",
+      "score": 50,
+      "symbolSize": 48
     },
     {
       "id": "林有邪",
       "name": "林有邪",
-      "category": 0,
+      "category": 2,
       "value": 3,
       "url": "/character/lin_youxie",
-      "tier": "主角",
-      "score": 88,
-      "symbolSize": 72
+      "tier": "重要配角",
+      "score": 46,
+      "symbolSize": 45
     },
     {
       "id": "林况",
@@ -763,42 +763,42 @@
     {
       "id": "碧珠婆婆",
       "name": "碧珠婆婆",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/bi_zhu_popo",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 47,
+      "symbolSize": 46
     },
     {
       "id": "范清清",
       "name": "范清清",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/fan_qingqing",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "许象乾",
       "name": "许象乾",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/xu_xianggan",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 46,
+      "symbolSize": 45
     },
     {
       "id": "杨柳",
       "name": "杨柳",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/yang_liu",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 34,
+      "symbolSize": 38
     },
     {
       "id": "许象乾/杨柳",
@@ -813,12 +813,12 @@
     {
       "id": "照无颜",
       "name": "照无颜",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/zhao_wuyan",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 31,
+      "symbolSize": 36
     },
     {
       "id": "钓海楼",
@@ -833,82 +833,82 @@
     {
       "id": "陈治涛",
       "name": "陈治涛",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/chen_zhitao",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 44,
+      "symbolSize": 44
     },
     {
       "id": "危寻",
       "name": "危寻",
-      "category": 0,
+      "category": 1,
       "value": 1,
       "url": "/character/wei_xun",
-      "tier": "主角",
-      "score": 95,
-      "symbolSize": 77
+      "tier": "核心配角",
+      "score": 54,
+      "symbolSize": 51
     },
     {
       "id": "崇光真人",
       "name": "崇光真人",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/chongguang_zhenren",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "海京平",
       "name": "海京平",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/hai_jingping",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "李龙川",
       "name": "李龙川",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/li_longchuan",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "丁景山",
       "name": "丁景山",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/ding_jingshan",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "白象王",
       "name": "白象王",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/bai_xiangwang",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 44,
+      "symbolSize": 44
     },
     {
       "id": "鱼万谷",
       "name": "鱼万谷",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/yu_wangu",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "鱼嗣庆",
@@ -933,32 +933,32 @@
     {
       "id": "褚密",
       "name": "褚密",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/chu_mi",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 36,
+      "symbolSize": 39
     },
     {
       "id": "陈艮",
       "name": "陈艮",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/chen_gen",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 32,
+      "symbolSize": 36
     },
     {
       "id": "阎伽",
       "name": "阎伽",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/yan_jia",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 32,
+      "symbolSize": 36
     },
     {
       "id": "符彦青",
@@ -973,22 +973,22 @@
     {
       "id": "孙小蛮",
       "name": "孙小蛮",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/sun_xiaoman",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 40,
+      "symbolSize": 42
     },
     {
       "id": "王骜",
       "name": "王骜",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/wang_ao",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "血王",
@@ -1003,22 +1003,22 @@
     {
       "id": "季少卿",
       "name": "季少卿",
-      "category": 1,
+      "category": 2,
       "value": 4,
       "url": "/character/ji_shaoqing",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 47,
+      "symbolSize": 46
     },
     {
       "id": "包嵩",
       "name": "包嵩",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/bao_song",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 34,
+      "symbolSize": 38
     },
     {
       "id": "辜怀信",
@@ -1033,12 +1033,12 @@
     {
       "id": "乌列",
       "name": "乌列",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/wu_lie",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "田焕文",
@@ -1053,22 +1053,22 @@
     {
       "id": "吕宗骁",
       "name": "吕宗骁",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/lu_zongxiao",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "曹皆",
       "name": "曹皆",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/cao_jie",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "春死军",
@@ -1083,22 +1083,22 @@
     {
       "id": "计昭南",
       "name": "计昭南",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/ji_zhaonan",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "左光殊",
       "name": "左光殊",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/zuo_guangshu",
-      "tier": "核心配角",
-      "score": 82,
-      "symbolSize": 68
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "岳冷/厉有疚",
@@ -1113,32 +1113,32 @@
     {
       "id": "宇文铎",
       "name": "宇文铎",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/yu_wen_duo",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 40,
+      "symbolSize": 42
     },
     {
       "id": "赫连云云",
       "name": "赫连云云",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/helian_yunyun",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "邓岳",
       "name": "邓岳",
-      "category": 1,
+      "category": 3,
       "value": 1,
       "url": "/character/deng_yue",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "支线角色",
+      "score": 37,
+      "symbolSize": 40
     },
     {
       "id": "牧国王庭",
@@ -1153,102 +1153,102 @@
     {
       "id": "向前",
       "name": "向前",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/xiang_qian",
-      "tier": "核心配角",
-      "score": 84,
-      "symbolSize": 70
+      "tier": "重要配角",
+      "score": 46,
+      "symbolSize": 45
     },
     {
       "id": "卫瑜",
       "name": "卫瑜",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/wei_yu",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 31,
+      "symbolSize": 36
     },
     {
       "id": "秦至臻",
       "name": "秦至臻",
-      "category": 1,
+      "category": 2,
       "value": 3,
       "url": "/character/qin_zhizhen",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 45,
+      "symbolSize": 45
     },
     {
       "id": "慕容龙且",
       "name": "慕容龙且",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/murong_longqie",
-      "tier": "重要配角",
-      "score": 66,
-      "symbolSize": 58
+      "tier": "支线角色",
+      "score": 36,
+      "symbolSize": 39
     },
     {
       "id": "慕容奋武",
       "name": "慕容奋武",
-      "category": 3,
+      "category": 4,
       "value": 1,
       "url": "/character/murong_fenwu",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
+      "tier": "客串角色",
+      "score": 28,
+      "symbolSize": 34
     },
     {
       "id": "黄舍利",
       "name": "黄舍利",
-      "category": 1,
+      "category": 2,
       "value": 4,
       "url": "/character/huang_sheli",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 46,
+      "symbolSize": 45
     },
     {
       "id": "黄弗",
       "name": "黄弗",
-      "category": 3,
+      "category": 4,
       "value": 1,
       "url": "/character/huang_fu",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
+      "tier": "客串角色",
+      "score": 27,
+      "symbolSize": 33
     },
     {
       "id": "中山渭孙",
       "name": "中山渭孙",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/zhongshan_weisun",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 40,
+      "symbolSize": 42
     },
     {
       "id": "中山燕文",
       "name": "中山燕文",
-      "category": 3,
+      "category": 4,
       "value": 1,
       "url": "/character/zhongshan_yanwen",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
+      "tier": "客串角色",
+      "score": 28,
+      "symbolSize": 34
     },
     {
       "id": "夜澜儿",
       "name": "夜澜儿",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/ye_laner",
-      "tier": "重要配角",
-      "score": 66,
-      "symbolSize": 58
+      "tier": "支线角色",
+      "score": 35,
+      "symbolSize": 38
     },
     {
       "id": "楚帝",
@@ -1263,32 +1263,32 @@
     {
       "id": "金戈",
       "name": "金戈",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/jin_ge",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 31,
+      "symbolSize": 36
     },
     {
       "id": "金昙度",
       "name": "金昙度",
-      "category": 3,
+      "category": 4,
       "value": 1,
       "url": "/character/jin_tandu",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
+      "tier": "客串角色",
+      "score": 27,
+      "symbolSize": 33
     },
     {
       "id": "苍瞑",
       "name": "苍瞑",
-      "category": 3,
+      "category": 4,
       "value": 1,
       "url": "/character/cang_ming",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
+      "tier": "客串角色",
+      "score": 27,
+      "symbolSize": 33
     },
     {
       "id": "牧国神殿",
@@ -1303,12 +1303,12 @@
     {
       "id": "夏侯烈",
       "name": "夏侯烈",
-      "category": 2,
+      "category": 3,
       "value": 2,
       "url": "/character/xiahou_lie",
-      "tier": "重要配角",
-      "score": 66,
-      "symbolSize": 58
+      "tier": "支线角色",
+      "score": 37,
+      "symbolSize": 40
     },
     {
       "id": "荆国出征队伍",
@@ -1323,22 +1323,22 @@
     {
       "id": "竹素瑶",
       "name": "竹素瑶",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/zhu_suyao",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "虚泽甫",
       "name": "虚泽甫",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/xu_ze_fu",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "齐帝姜述",
@@ -1353,32 +1353,32 @@
     {
       "id": "何皇后",
       "name": "何皇后",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/he_huanghou",
-      "tier": "重要配角",
-      "score": 66,
-      "symbolSize": 58
+      "tier": "支线角色",
+      "score": 35,
+      "symbolSize": 38
     },
     {
       "id": "姜无华",
       "name": "姜无华",
-      "category": 0,
+      "category": 2,
       "value": 2,
       "url": "/character/jiang_wuhua",
-      "tier": "主角",
-      "score": 93,
-      "symbolSize": 76
+      "tier": "重要配角",
+      "score": 48,
+      "symbolSize": 47
     },
     {
       "id": "姜无弃",
       "name": "姜无弃",
-      "category": 0,
+      "category": 1,
       "value": 3,
       "url": "/character/jiang_wuqi",
-      "tier": "主角",
-      "score": 93,
-      "symbolSize": 76
+      "tier": "核心配角",
+      "score": 53,
+      "symbolSize": 50
     },
     {
       "id": "姜梦熊",
@@ -1393,142 +1393,142 @@
     {
       "id": "江离梦",
       "name": "江离梦",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/jiang_limeng",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "太寅",
       "name": "太寅",
-      "category": 1,
+      "category": 3,
       "value": 1,
       "url": "/character/tai_yin",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "支线角色",
+      "score": 38,
+      "symbolSize": 40
     },
     {
       "id": "那良",
       "name": "那良",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/na_liang",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 30,
+      "symbolSize": 35
     },
     {
       "id": "斗昭",
       "name": "斗昭",
-      "category": 1,
+      "category": 2,
       "value": 2,
       "url": "/character/dou_zhao",
-      "tier": "核心配角",
-      "score": 78,
-      "symbolSize": 66
+      "tier": "重要配角",
+      "score": 43,
+      "symbolSize": 44
     },
     {
       "id": "甘长安",
       "name": "甘长安",
-      "category": 1,
+      "category": 3,
       "value": 1,
       "url": "/character/gan_changan",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "支线角色",
+      "score": 38,
+      "symbolSize": 40
     },
     {
       "id": "燕少飞",
       "name": "燕少飞",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/yan_shaofei",
-      "tier": "核心配角",
-      "score": 76,
-      "symbolSize": 65
+      "tier": "重要配角",
+      "score": 41,
+      "symbolSize": 42
     },
     {
       "id": "耶律止",
       "name": "耶律止",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/yelv_zhi",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 31,
+      "symbolSize": 36
     },
     {
       "id": "触悯",
       "name": "触悯",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/chu_min",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "林羡",
       "name": "林羡",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/lin_xian",
-      "tier": "重要配角",
-      "score": 66,
-      "symbolSize": 58
+      "tier": "支线角色",
+      "score": 36,
+      "symbolSize": 39
     },
     {
       "id": "萧恕",
       "name": "萧恕",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/xiao_shu",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 31,
+      "symbolSize": 36
     },
     {
       "id": "东郭豹",
       "name": "东郭豹",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/dongguo_bao",
-      "tier": "重要配角",
-      "score": 61,
-      "symbolSize": 55
+      "tier": "支线角色",
+      "score": 33,
+      "symbolSize": 37
     },
     {
       "id": "冼南魁",
       "name": "冼南魁",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/xian_nankui",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 30,
+      "symbolSize": 35
     },
     {
       "id": "那摩多",
       "name": "那摩多",
-      "category": 3,
+      "category": 4,
       "value": 1,
       "url": "/character/na_mo_duo",
-      "tier": "支线角色",
-      "score": 51,
-      "symbolSize": 49
+      "tier": "客串角色",
+      "score": 28,
+      "symbolSize": 34
     },
     {
       "id": "项北",
       "name": "项北",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/xiang_bei",
-      "tier": "核心配角",
-      "score": 72,
-      "symbolSize": 62
+      "tier": "重要配角",
+      "score": 42,
+      "symbolSize": 43
     },
     {
       "id": "秦帝",
@@ -1543,12 +1543,12 @@
     {
       "id": "李一",
       "name": "李一",
-      "category": 0,
+      "category": 2,
       "value": 1,
       "url": "/character/li_yi",
-      "tier": "主角",
-      "score": 86,
-      "symbolSize": 71
+      "tier": "重要配角",
+      "score": 48,
+      "symbolSize": 47
     },
     {
       "id": "景国",
@@ -1563,42 +1563,42 @@
     {
       "id": "田安平",
       "name": "田安平",
-      "category": 0,
+      "category": 2,
       "value": 2,
       "url": "/character/tian_anping",
-      "tier": "主角",
-      "score": 92,
-      "symbolSize": 75
+      "tier": "重要配角",
+      "score": 46,
+      "symbolSize": 45
     },
     {
       "id": "柳啸",
       "name": "柳啸",
-      "category": 1,
+      "category": 2,
       "value": 1,
       "url": "/character/liu_xiao",
-      "tier": "核心配角",
-      "score": 80,
-      "symbolSize": 67
+      "tier": "重要配角",
+      "score": 44,
+      "symbolSize": 44
     },
     {
       "id": "田希礼",
       "name": "田希礼",
-      "category": 2,
+      "category": 4,
       "value": 1,
       "url": "/character/tian_xili",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "客串角色",
+      "score": 29,
+      "symbolSize": 35
     },
     {
       "id": "柳应麒",
       "name": "柳应麒",
-      "category": 2,
+      "category": 3,
       "value": 1,
       "url": "/character/liu_yingqi",
-      "tier": "重要配角",
-      "score": 57,
-      "symbolSize": 52
+      "tier": "支线角色",
+      "score": 30,
+      "symbolSize": 35
     }
   ],
   "links": [
