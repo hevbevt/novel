@@ -163,7 +163,8 @@
                     {{ item.label }}
                   </div>
                   <div class="text-xs text-ink-soft mt-1">
-                    {{ item.file || '原文' }}
+                    <span v-if="item.anchor">证据：{{ item.anchor }}</span>
+                    <span v-if="item.file"> · {{ item.file }}</span>
                     <span v-if="item.start"> · 第{{ item.start }}章</span>
                     <span v-if="item.end && item.end !== item.start">–第{{ item.end }}章</span>
                     <span v-if="item.approx" class="ml-1">（约）</span>
@@ -228,6 +229,7 @@ type EvidenceItem = {
 
 type TimelineItem = {
   label: string
+  anchor?: string
   file?: string
   start?: number | null
   end?: number | null
@@ -282,9 +284,18 @@ const evidenceCount = computed(() => {
 
 const timelineItems = computed(() => {
   if (!current.value) return []
-  if (current.value.timeline?.length) return current.value.timeline
-  return (current.value.evidenceItems || []).map((item) => ({
-    label: item.text,
+  const baseLabel = current.value.summary || current.value.title || '伏笔线索'
+  const evidenceItems = current.value.evidenceItems || []
+  if (!evidenceItems.length) {
+    return [
+      {
+        label: baseLabel
+      }
+    ]
+  }
+  return evidenceItems.map((item) => ({
+    label: baseLabel,
+    anchor: item.text,
     file: item.file,
     start: item.start,
     end: item.end,
