@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run gen:graph && npm run gen:data && vite",
-    "build": "npm run gen:data && npm run gen:graph && vite build",
+    "dev": "npm run gen:foreshadowing && npm run gen:data && npm run gen:graph && vite",
+    "build": "npm run gen:foreshadowing && npm run gen:data && npm run gen:graph && vite build",
     "preview": "vite preview",
     "gen:graph": "node scripts/generate-graph.js",
     "gen:data": "node scripts/generate-character-data.js",
+    "gen:foreshadowing": "node scripts/generate-foreshadowing.js",
     "typecheck": "vue-tsc --noEmit -p tsconfig.build.json"
   },
   "keywords": [],

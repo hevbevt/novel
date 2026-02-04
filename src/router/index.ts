@@ -5,6 +5,7 @@ import GraphView from '../views/GraphView.vue'
 import CharactersView from '../views/CharactersView.vue'
 import PlotView from '../views/PlotView.vue'
 import FactionsView from '../views/FactionsView.vue'
+import ForeshadowingView from '../views/ForeshadowingView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ const router = createRouter({
       path: '/factions',
       name: 'factions',
       component: FactionsView
+    },
+    {
+      path: '/foreshadowing',
+      name: 'foreshadowing',
+      component: ForeshadowingView
     },
     {
       path: '/graph',

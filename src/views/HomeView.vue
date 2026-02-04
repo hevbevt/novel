@@ -36,6 +36,7 @@
           <router-link class="hover:text-[var(--ink)] transition" to="/characters">人物</router-link>
           <router-link class="hover:text-[var(--ink)] transition" to="/plot">剧情</router-link>
           <router-link class="hover:text-[var(--ink)] transition" to="/factions">势力</router-link>
+          <router-link class="hover:text-[var(--ink)] transition" to="/foreshadowing">伏笔</router-link>
           <router-link class="hover:text-[var(--ink)] transition" to="/graph">因果界</router-link>
         </nav>
         <div class="flex items-center gap-3">
@@ -102,11 +103,11 @@
               </div>
               <div class="card-surface rounded-2xl p-4 animate-fade-up" style="animation-delay: 0.3s">
                 <div class="text-xs text-ink-soft uppercase tracking-[0.2em]">资料模块</div>
-                <div class="text-2xl font-semibold mt-2">4</div>
+              <div class="text-2xl font-semibold mt-2">5</div>
               </div>
               <div class="card-surface rounded-2xl p-4 animate-fade-up" style="animation-delay: 0.35s">
                 <div class="text-xs text-ink-soft uppercase tracking-[0.2em]">索引维度</div>
-                <div class="text-2xl font-semibold mt-2">人 · 势 · 事 · 道</div>
+                <div class="text-2xl font-semibold mt-2">人 · 势 · 事 · 伏 · 图</div>
               </div>
             </div>
           </div>
@@ -140,6 +141,7 @@
                   <span class="px-3 py-1 rounded-full text-xs bg-[var(--accent-soft)] text-[var(--accent)]">剧情</span>
                   <span class="px-3 py-1 rounded-full text-xs bg-[var(--accent-3-soft)] text-[var(--accent-3)]">势力</span>
                   <span class="px-3 py-1 rounded-full text-xs bg-black/5 text-ink-soft">修行</span>
+                  <span class="px-3 py-1 rounded-full text-xs bg-[var(--accent-3-soft)] text-[var(--accent-3)]">伏笔</span>
                 </div>
               </div>
             </div>
@@ -245,6 +247,50 @@
         </div>
       </section>
 
+      <section id="foreshadowing" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="flex items-end justify-between flex-wrap gap-4">
+          <div>
+            <h2 class="font-display text-3xl">伏笔追踪</h2>
+            <p class="text-ink-soft mt-2">汇总“隐线与伏笔”条目，跟踪回收进度与线索关联。</p>
+          </div>
+          <router-link to="/foreshadowing" class="text-sm text-ink-soft hover:text-[var(--ink)] transition">
+            进入伏笔库 →
+          </router-link>
+        </div>
+        <div class="mt-8 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+          <div
+            v-for="item in foreshadowingPreview"
+            :key="item.id"
+            class="card-surface rounded-3xl p-6"
+          >
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-xs uppercase tracking-[0.2em] text-ink-soft">{{ item.range }}</div>
+                <h3 class="text-lg font-semibold mt-2">{{ item.title }}</h3>
+              </div>
+              <span
+                class="px-3 py-1 rounded-full text-xs"
+                :class="item.tag === '文本明确'
+                  ? 'bg-[var(--accent-soft)] text-[var(--accent)]'
+                  : item.tag === '合理推断'
+                    ? 'bg-[var(--accent-3-soft)] text-[var(--accent-3)]'
+                    : 'bg-[var(--ink-soft-bg)] text-ink-soft'"
+              >
+                {{ item.tag }}
+              </span>
+            </div>
+            <p class="text-sm text-ink-soft mt-3">{{ item.summary || '暂无细化描述' }}</p>
+            <div class="mt-4 text-xs text-ink-soft">状态：{{ item.status }}</div>
+          </div>
+          <div
+            v-if="!foreshadowingPreview.length"
+            class="card-surface rounded-3xl p-6 text-sm text-ink-soft"
+          >
+            伏笔条目整理中，稍后可进入伏笔库查看完整列表。
+          </div>
+        </div>
+      </section>
+
       <section id="factions" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex items-end justify-between flex-wrap gap-4">
           <div>
@@ -298,7 +344,7 @@
     <footer class="relative z-10 border-t border-black/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-sm text-ink-soft flex flex-wrap items-center justify-between gap-2">
         <span>天机阁 · 赤心巡天资料站</span>
-        <span>人物 · 势力 · 剧情 · 因果图谱</span>
+        <span>人物 · 势力 · 剧情 · 伏笔 · 因果图谱</span>
       </div>
     </footer>
   </div>
@@ -327,8 +373,18 @@ type GraphData = {
   categories: any[]
 }
 
+type ForeshadowingItem = {
+  id: string
+  title: string
+  summary: string
+  tag: string
+  status: string
+  range: string
+}
+
 const graphData = ref<GraphData | null>(null)
 const graphError = ref('')
+const foreshadowingPreview = ref<ForeshadowingItem[]>([])
 
 const featuredIds = [
   'jiang_wang',
@@ -389,6 +445,12 @@ const modules = [
     description: '整理诸国势力、宗门组织与暗线势力的格局与影响力。',
     to: '/factions',
     cta: '查看势力'
+  },
+  {
+    title: '伏笔追踪',
+    description: '汇总隐线伏笔与对应证据，持续追踪回收进展。',
+    to: '/foreshadowing',
+    cta: '查看伏笔'
   },
   {
     title: '因果界',
@@ -475,8 +537,20 @@ const loadGraph = async () => {
   }
 }
 
+const loadForeshadowing = async () => {
+  try {
+    const res = await fetch('/data/foreshadowing.json')
+    if (!res.ok) throw new Error('无法加载伏笔数据')
+    const data = await res.json()
+    foreshadowingPreview.value = (data.items || []).slice(0, 3)
+  } catch (error) {
+    foreshadowingPreview.value = []
+  }
+}
+
 onMounted(() => {
   loadCharacters()
   loadGraph()
+  loadForeshadowing()
 })
 </script>

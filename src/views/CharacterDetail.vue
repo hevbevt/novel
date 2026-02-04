@@ -175,7 +175,8 @@ const error = ref('')
 const navItems = [
   { label: '人物', to: '/characters' },
   { label: '剧情', to: '/plot' },
-  { label: '势力', to: '/factions' }
+  { label: '势力', to: '/factions' },
+  { label: '伏笔', to: '/foreshadowing' }
 ]
 
 const isActive = (path: string) => {
