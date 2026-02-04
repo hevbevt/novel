@@ -84,6 +84,13 @@
                 <span class="px-3 py-1 rounded-full text-xs bg-[var(--ink-soft-bg)] text-ink-soft">
                   {{ current?.range || '章节待定' }}
                 </span>
+                <span
+                  v-for="theme in current?.themes || []"
+                  :key="theme"
+                  class="px-3 py-1 rounded-full text-xs bg-[var(--accent-2-soft)] text-[var(--accent-2)]"
+                >
+                  {{ theme }}
+                </span>
                 <span v-if="current?.source" class="px-3 py-1 rounded-full text-xs bg-white/70 text-ink-soft">
                   来源：{{ current.source }}
                 </span>
@@ -204,6 +211,35 @@
           </router-link>
         </div>
       </section>
+
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16" v-if="!loading && crossThemeItems.length">
+        <div class="flex items-end justify-between flex-wrap gap-4">
+          <div>
+            <h2 class="font-display text-3xl">跨卷关联</h2>
+            <p class="text-ink-soft mt-2">同主题线索的跨卷追踪</p>
+          </div>
+          <router-link to="/foreshadowing" class="text-sm text-ink-soft hover:text-[var(--ink)] transition">
+            查看全部 →
+          </router-link>
+        </div>
+        <div class="mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+          <router-link
+            v-for="item in crossThemeItems"
+            :key="item.id"
+            :to="`/foreshadowing/${item.slug || item.id}`"
+            class="card-surface rounded-3xl p-6 transition hover:-translate-y-1"
+          >
+            <div class="flex items-start justify-between gap-3">
+              <h3 class="text-lg font-semibold">{{ item.title }}</h3>
+              <span class="px-3 py-1 rounded-full text-xs bg-[var(--accent-2-soft)] text-[var(--accent-2)]">
+                {{ item.range }}
+              </span>
+            </div>
+            <p class="text-sm text-ink-soft mt-3">{{ item.summary || '暂无摘要' }}</p>
+            <div class="mt-4 text-sm font-semibold text-[var(--accent)]">查看详情 →</div>
+          </router-link>
+        </div>
+      </section>
     </main>
 
     <footer class="relative z-10 border-t border-black/10">
@@ -244,6 +280,7 @@ type ForeshadowingItem = {
   tag: string
   status: string
   range: string
+  themes?: string[]
   evidence?: string
   evidenceItems?: EvidenceItem[]
   timeline?: TimelineItem[]
@@ -307,6 +344,19 @@ const relatedItems = computed(() => {
   if (!current.value) return []
   return allItems.value
     .filter((item) => item.range === current.value?.range && item.id !== current.value?.id)
+    .slice(0, 6)
+})
+
+const crossThemeItems = computed(() => {
+  if (!current.value?.themes || !current.value.themes.length) return []
+  const themeSet = new Set(current.value.themes)
+  return allItems.value
+    .filter((item) => {
+      if (item.id === current.value?.id) return false
+      if (item.range === current.value?.range) return false
+      if (!item.themes || !item.themes.length) return false
+      return item.themes.some((theme) => themeSet.has(theme))
+    })
     .slice(0, 6)
 })
 

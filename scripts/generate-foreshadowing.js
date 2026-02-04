@@ -21,6 +21,7 @@ const sources = [
 ];
 
 const outputFile = path.resolve(__dirname, '../public/data/foreshadowing.json');
+const themesFile = path.resolve(__dirname, '../docs/foreshadowing/THEMES.md');
 
 function readFileSafe(filePath) {
   try {
@@ -38,6 +39,72 @@ function extractRangeFromHeading(line, fallbackRange) {
 
 function cleanText(text) {
   return text.replace(/\*\*/g, '').replace(/`/g, '').trim();
+}
+
+function loadThemeMap() {
+  const content = readFileSafe(themesFile);
+  if (!content) return { byKey: new Map(), byTitle: new Map() };
+  const byKey = new Map();
+  const byTitle = new Map();
+  let currentTheme = '';
+  content.split('\n').forEach((line) => {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('## ')) {
+      currentTheme = trimmed.replace('## ', '').trim();
+      return;
+    }
+    if (!currentTheme) return;
+    const match = trimmed.match(/^-\\s*\\[(.+?)\\]\\s*(.+?)（见/);
+    if (!match) return;
+    const range = match[1].trim();
+    const title = match[2].trim();
+    const key = `${range}::${title}`;
+    if (!byKey.has(key)) byKey.set(key, new Set());
+    byKey.get(key).add(currentTheme);
+    if (!byTitle.has(title)) byTitle.set(title, new Set());
+    byTitle.get(title).add(currentTheme);
+  });
+  return {
+    byKey,
+    byTitle
+  };
+}
+
+const fallbackThemeRules = [
+  { theme: '白骨道线', keywords: ['白骨', '白骨道', '白骨尊神', '无生劫', '白骨道子'] },
+  { theme: '田家暗线', keywords: ['田家', '田焕文', '田安平', '田柳'] },
+  { theme: '刺君与哭祠', keywords: ['刺君', '哭祠'] },
+  { theme: '平等国', keywords: ['平等国', '星光圣楼'] },
+  { theme: '人魔/无生教', keywords: ['人魔', '无生教', '平衡之血', '仙主'] },
+  { theme: '太虚体系', keywords: ['太虚', '角楼', '太虚幻境', '太虚使者'] },
+  { theme: '云顶仙宫/青云亭', keywords: ['云顶仙宫', '青云亭', '迟云山', '天府秘境', '镜花水月', '凌霄阁'] },
+  { theme: '近海/迷界/海祭', keywords: ['近海', '迷界', '海祭', '镇海盟', '钓海楼', '丁未'] },
+  { theme: '地狱无门', keywords: ['地狱无门', '阎罗', '卞城王', '囚海狱'] },
+  { theme: '打更人/皇朝暗线', keywords: ['打更人', '北衙', '皇朝'] },
+  { theme: '纸人/诅咒纸人', keywords: ['纸人', '诅咒纸人'] },
+  { theme: '黄河之会/观河台', keywords: ['黄河之会', '观河台', '太庙'] },
+  { theme: '重玄/姜家旧案', keywords: ['重玄', '青石宫', '姜无量', '枯荣院'] }
+];
+
+function inferThemes(title) {
+  const matches = [];
+  fallbackThemeRules.forEach((rule) => {
+    if (rule.keywords.some(keyword => title.includes(keyword))) {
+      matches.push(rule.theme);
+    }
+  });
+  return matches;
+}
+
+function resolveThemes(themeMap, range, title) {
+  const key = `${range}::${title}`;
+  if (themeMap.byKey.has(key)) {
+    return Array.from(themeMap.byKey.get(key));
+  }
+  if (themeMap.byTitle.has(title)) {
+    return Array.from(themeMap.byTitle.get(title));
+  }
+  return inferThemes(title);
 }
 
 function buildSlug(range, index) {
@@ -146,6 +213,13 @@ function parseItem(lines, range, sourceFile, index) {
     contentLines.splice(adjustedStatusIndex, 1);
   }
 
+  // 移除追踪字段，避免污染摘要
+  for (let i = contentLines.length - 1; i >= 0; i -= 1) {
+    if (contentLines[i].includes('最新进展：') || contentLines[i].includes('关联：')) {
+      contentLines.splice(i, 1);
+    }
+  }
+
   let raw = contentLines.join(' ');
   raw = raw.replace(/\s+/g, ' ').trim();
   raw = raw.replace(/^\d+\./, '').replace(/^-\s*/, '').trim();
@@ -176,6 +250,7 @@ function parseItem(lines, range, sourceFile, index) {
 
   const evidenceItems = parseEvidence(evidence);
   const timeline = buildTimeline(evidenceItems);
+  const themes = resolveThemes(themeMap, range, title);
 
   return {
     id: `${range}-${index}`,
@@ -186,6 +261,7 @@ function parseItem(lines, range, sourceFile, index) {
     status,
     range,
     evidence,
+    themes,
     evidenceItems,
     timeline,
     source: sourceFile
@@ -241,6 +317,7 @@ function extractSectionItems(text, fallbackRange, sourceFile) {
 
 const allItems = [];
 const segments = [];
+const themeMap = loadThemeMap();
 
 sources.forEach((source) => {
   const content = readFileSafe(source.file);
@@ -250,6 +327,14 @@ sources.forEach((source) => {
   segments.push({ range, source: path.basename(source.file), count: items.length });
   allItems.push(...items);
 });
+
+if (themeMap.byKey.size || themeMap.byTitle.size) {
+  allItems.forEach((item) => {
+    if (!item.themes || item.themes.length === 0) {
+      item.themes = resolveThemes(themeMap, item.range, item.title);
+    }
+  });
+}
 
 const data = {
   generatedAt: new Date().toISOString(),

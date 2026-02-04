@@ -112,6 +112,22 @@
           </div>
           <div class="flex flex-wrap gap-2">
             <button
+              v-for="status in statusOptions"
+              :key="status"
+              type="button"
+              class="px-4 py-2 rounded-full text-xs font-semibold transition"
+              :class="
+                activeStatus === status
+                  ? 'bg-[var(--accent-2)] text-white'
+                  : 'bg-[var(--accent-2-soft)] text-[var(--accent-2)] hover:opacity-80'
+              "
+              @click="activeStatus = status"
+            >
+              {{ status }}
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <button
               v-for="range in rangeOptions"
               :key="range"
               type="button"
@@ -229,6 +245,7 @@ type ForeshadowingItem = {
   summary: string
   tag: string
   status: string
+  themes?: string[]
   range: string
   evidence?: string
   source?: string
@@ -257,6 +274,7 @@ const segments = ref<ForeshadowingData['segments']>([])
 const query = ref('')
 const activeTag = ref('全部')
 const activeRange = ref('全部')
+const activeStatus = ref('全部')
 
 const stats = computed(() => {
   const total = foreshadowing.value.length
@@ -278,11 +296,18 @@ const rangeOptions = computed(() => {
   return Array.from(ranges)
 })
 
+const statusOptions = computed(() => {
+  const statuses = new Set(['全部'])
+  foreshadowing.value.forEach((item) => statuses.add(item.status || '追踪中'))
+  return Array.from(statuses)
+})
+
 const filteredItems = computed(() => {
   const keyword = query.value.trim()
   return foreshadowing.value.filter((item) => {
     if (activeTag.value !== '全部' && item.tag !== activeTag.value) return false
     if (activeRange.value !== '全部' && item.range !== activeRange.value) return false
+    if (activeStatus.value !== '全部' && item.status !== activeStatus.value) return false
     if (!keyword) return true
     return (
       item.title.includes(keyword) ||
