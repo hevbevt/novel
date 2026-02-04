@@ -321,6 +321,7 @@ const evidenceCount = computed(() => {
 
 const timelineItems = computed(() => {
   if (!current.value) return []
+  if (current.value.timeline?.length) return current.value.timeline
   const baseLabel = current.value.summary || current.value.title || '伏笔线索'
   const evidenceItems = current.value.evidenceItems || []
   if (!evidenceItems.length) {

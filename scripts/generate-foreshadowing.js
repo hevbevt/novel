@@ -41,6 +41,25 @@ function cleanText(text) {
   return text.replace(/\*\*/g, '').replace(/`/g, '').trim();
 }
 
+function splitStages(summary) {
+  if (!summary) return [];
+  let parts = summary.split('；').map(part => part.trim()).filter(Boolean);
+  if (parts.length <= 1) {
+    parts = summary.split('。').map(part => part.trim()).filter(Boolean);
+  }
+  return parts.filter(Boolean);
+}
+
+function formatChapterLabel(item) {
+  if (Number.isFinite(item.start)) {
+    if (item.end && item.end !== item.start) {
+      return `第${item.start}-${item.end}章`;
+    }
+    return `第${item.start}章`;
+  }
+  return '';
+}
+
 function loadThemeMap() {
   const content = readFileSafe(themesFile);
   if (!content) return { byKey: new Map(), byTitle: new Map() };
@@ -175,21 +194,35 @@ function parseEvidence(evidenceText) {
   return items;
 }
 
-function buildTimeline(evidenceItems) {
-  if (!evidenceItems.length) return [];
-  const withChapter = evidenceItems.filter(item => Number.isFinite(item.start));
-  const base = (withChapter.length ? withChapter : evidenceItems).map((item) => ({
-    label: item.text,
-    file: item.file,
-    start: item.start,
-    end: item.end,
-    approx: item.approx
-  }));
-  return base.sort((a, b) => {
+function buildTimeline(evidenceItems, stages, fallbackLabel) {
+  if (!evidenceItems.length) {
+    if (stages && stages.length) {
+      return stages.map((stage) => ({ label: stage }));
+    }
+    return fallbackLabel ? [{ label: fallbackLabel }] : [];
+  }
+
+  const sorted = [...evidenceItems].sort((a, b) => {
     if (a.start == null && b.start == null) return 0;
     if (a.start == null) return 1;
     if (b.start == null) return -1;
     return a.start - b.start;
+  });
+
+  const lastStage = stages && stages.length ? stages[stages.length - 1] : (fallbackLabel || '');
+
+  return sorted.map((item, index) => {
+    const stage = stages && stages.length ? (stages[index] || lastStage) : lastStage;
+    const chapterLabel = formatChapterLabel(item);
+    const label = chapterLabel && stage ? `${chapterLabel} · ${stage}` : (stage || chapterLabel || fallbackLabel || item.text);
+    return {
+      label,
+      anchor: item.text,
+      file: item.file,
+      start: item.start,
+      end: item.end,
+      approx: item.approx
+    };
   });
 }
 
@@ -249,7 +282,8 @@ function parseItem(lines, range, sourceFile, index) {
   summary = cleanText(summary);
 
   const evidenceItems = parseEvidence(evidence);
-  const timeline = buildTimeline(evidenceItems);
+  const stages = splitStages(summary);
+  const timeline = buildTimeline(evidenceItems, stages, title);
   const themes = resolveThemes(themeMap, range, title);
 
   return {
