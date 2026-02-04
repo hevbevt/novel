@@ -6,6 +6,7 @@ import CharactersView from '../views/CharactersView.vue'
 import PlotView from '../views/PlotView.vue'
 import FactionsView from '../views/FactionsView.vue'
 import ForeshadowingView from '../views/ForeshadowingView.vue'
+import ForeshadowingDetailView from '../views/ForeshadowingDetailView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/foreshadowing',
       name: 'foreshadowing',
       component: ForeshadowingView
+    },
+    {
+      path: '/foreshadowing/:id',
+      name: 'foreshadowing-detail',
+      component: ForeshadowingDetailView
     },
     {
       path: '/graph',

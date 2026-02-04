@@ -157,16 +157,17 @@
             </div>
           </div>
           <div class="mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
-            <div
-              v-for="item in group.items"
-              :key="item.id"
-              class="card-surface rounded-3xl p-6"
-            >
-              <div class="flex items-start justify-between gap-3">
-                <div>
-                  <h3 class="text-lg font-semibold">{{ item.title }}</h3>
-                  <p class="text-xs text-ink-soft mt-1">{{ item.range }}</p>
-                </div>
+          <router-link
+            v-for="item in group.items"
+            :key="item.id"
+            :to="`/foreshadowing/${item.slug || item.id}`"
+            class="card-surface rounded-3xl p-6 transition hover:-translate-y-1"
+          >
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <h3 class="text-lg font-semibold">{{ item.title }}</h3>
+                <p class="text-xs text-ink-soft mt-1">{{ item.range }}</p>
+              </div>
                 <div class="flex flex-col items-end gap-2">
                   <span
                     class="px-3 py-1 rounded-full text-xs"
@@ -180,15 +181,16 @@
                   </span>
                   <span class="px-3 py-1 rounded-full text-xs bg-black/5 text-ink-soft">{{ item.status }}</span>
                 </div>
-              </div>
-              <p class="text-sm text-ink-soft mt-3">{{ item.summary || '暂无细化说明' }}</p>
-              <div v-if="item.evidence" class="mt-4 text-xs text-ink-soft">
-                证据：{{ item.evidence }}
-              </div>
-              <div v-if="item.source" class="mt-2 text-[11px] text-ink-soft">
-                来源：{{ item.source }}
-              </div>
             </div>
+            <p class="text-sm text-ink-soft mt-3">{{ item.summary || '暂无细化说明' }}</p>
+            <div v-if="item.evidence" class="mt-4 text-xs text-ink-soft">
+              证据：{{ item.evidence }}
+            </div>
+            <div v-if="item.source" class="mt-2 text-[11px] text-ink-soft">
+              来源：{{ item.source }}
+            </div>
+            <div class="mt-4 text-sm font-semibold text-[var(--accent)]">查看详情 →</div>
+          </router-link>
           </div>
         </div>
 
@@ -222,6 +224,7 @@ import { useRoute } from 'vue-router'
 
 type ForeshadowingItem = {
   id: string
+  slug?: string
   title: string
   summary: string
   tag: string
@@ -250,6 +253,7 @@ const highlightTags = ['伏笔追踪', '隐线整理', '待回收线索', '文�
 
 const loading = ref(true)
 const foreshadowing = ref<ForeshadowingItem[]>([])
+const segments = ref<ForeshadowingData['segments']>([])
 const query = ref('')
 const activeTag = ref('全部')
 const activeRange = ref('全部')
@@ -294,7 +298,17 @@ const groupedItems = computed(() => {
     if (!map.has(item.range)) map.set(item.range, [])
     map.get(item.range)?.push(item)
   })
-  return Array.from(map.entries()).map(([range, items]) => ({ range, items }))
+  const order = segments.value.map((segment) => segment.range)
+  return Array.from(map.entries())
+    .map(([range, items]) => ({ range, items }))
+    .sort((a, b) => {
+      const aIndex = order.indexOf(a.range)
+      const bIndex = order.indexOf(b.range)
+      if (aIndex === -1 && bIndex === -1) return a.range.localeCompare(b.range)
+      if (aIndex === -1) return 1
+      if (bIndex === -1) return -1
+      return aIndex - bIndex
+    })
 })
 
 const loadForeshadowing = async () => {
@@ -304,8 +318,10 @@ const loadForeshadowing = async () => {
     if (!res.ok) throw new Error('Failed to load foreshadowing')
     const data = (await res.json()) as ForeshadowingData
     foreshadowing.value = data.items || []
+    segments.value = data.segments || []
   } catch (error) {
     foreshadowing.value = []
+    segments.value = []
   } finally {
     loading.value = false
   }

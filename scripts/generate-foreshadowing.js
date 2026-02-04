@@ -40,6 +40,92 @@ function cleanText(text) {
   return text.replace(/\*\*/g, '').replace(/`/g, '').trim();
 }
 
+function buildSlug(range, index) {
+  const numbers = range.match(/\d+/g);
+  let rangeKey = 'range';
+  if (numbers && numbers.length >= 2) {
+    rangeKey = `${numbers[0]}-${numbers[1]}`;
+  } else if (numbers && numbers.length === 1) {
+    rangeKey = numbers[0];
+  }
+  return `${rangeKey}-${String(index).padStart(2, '0')}`;
+}
+
+function parseEvidence(evidenceText) {
+  if (!evidenceText) return [];
+  let file = '';
+  let detail = '';
+
+  const backtickMatch = evidenceText.match(/`([^`]+)`/);
+  if (backtickMatch) {
+    file = backtickMatch[1].trim();
+    detail = evidenceText.slice(backtickMatch.index + backtickMatch[0].length).trim();
+  } else {
+    file = evidenceText.replace(/`/g, '').trim();
+  }
+
+  const parenMatch = detail.match(/[（(](.*)[）)]/);
+  if (parenMatch) {
+    detail = parenMatch[1].trim();
+  }
+
+  if (!detail && !backtickMatch) {
+    const cleaned = evidenceText.replace(/`/g, '').trim();
+    const altMatch = cleaned.match(/[（(](.*)[）)]/);
+    if (altMatch) {
+      detail = altMatch[1].trim();
+      file = cleaned.slice(0, altMatch.index).trim();
+    }
+  }
+
+  file = file.replace(/[:：]\s*$/, '').trim();
+  detail = detail.replace(/^[:：]\s*/, '').trim();
+
+  const parts = detail
+    ? detail.split(/[、，；;。]/).map(part => part.trim()).filter(Boolean)
+    : [];
+
+  const items = [];
+  if (!parts.length && detail) {
+    items.push({ file: file || '原文', text: detail, start: null, end: null, approx: detail.includes('约') });
+    return items;
+  }
+
+  parts.forEach((part) => {
+    const approx = part.includes('约');
+    const match = part.match(/第?\s*(\d+)(?:\s*[-—~至]\s*(\d+))?\s*章/);
+    const start = match ? Number(match[1]) : null;
+    const end = match && match[2] ? Number(match[2]) : start;
+    items.push({
+      file: file || '原文',
+      text: part,
+      start,
+      end,
+      approx
+    });
+  });
+
+  return items;
+}
+
+function buildTimeline(evidenceItems) {
+  if (!evidenceItems.length) return [];
+  const withChapter = evidenceItems.filter(item => Number.isFinite(item.start));
+  const base = (withChapter.length ? withChapter : evidenceItems).map((item) => ({
+    label: item.text,
+    file: item.file,
+    start: item.start,
+    end: item.end,
+    approx: item.approx
+  }));
+  return base.sort((a, b) => {
+    if (a.start == null && b.start == null) return 0;
+    if (a.start == null) return 1;
+    if (b.start == null) return -1;
+    return a.start - b.start;
+  });
+}
+
 function parseItem(lines, range, sourceFile, index) {
   const evidenceIndex = lines.findIndex((line) => line.includes('证据：'));
   let evidence = '';
@@ -78,14 +164,20 @@ function parseItem(lines, range, sourceFile, index) {
   title = cleanText(title).replace(/【.*?】/g, '').trim();
   summary = cleanText(summary);
 
+  const evidenceItems = parseEvidence(evidence);
+  const timeline = buildTimeline(evidenceItems);
+
   return {
     id: `${range}-${index}`,
+    slug: buildSlug(range, index),
     title,
     summary,
     tag,
     status: '追踪中',
     range,
     evidence,
+    evidenceItems,
+    timeline,
     source: sourceFile
   };
 }

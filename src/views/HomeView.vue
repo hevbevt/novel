@@ -258,10 +258,11 @@
           </router-link>
         </div>
         <div class="mt-8 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
-          <div
+          <router-link
             v-for="item in foreshadowingPreview"
             :key="item.id"
-            class="card-surface rounded-3xl p-6"
+            :to="`/foreshadowing/${item.slug || item.id}`"
+            class="card-surface rounded-3xl p-6 transition hover:-translate-y-1"
           >
             <div class="flex items-start justify-between gap-3">
               <div>
@@ -281,7 +282,8 @@
             </div>
             <p class="text-sm text-ink-soft mt-3">{{ item.summary || '暂无细化描述' }}</p>
             <div class="mt-4 text-xs text-ink-soft">状态：{{ item.status }}</div>
-          </div>
+            <div class="mt-4 text-sm font-semibold text-[var(--accent)]">查看详情 →</div>
+          </router-link>
           <div
             v-if="!foreshadowingPreview.length"
             class="card-surface rounded-3xl p-6 text-sm text-ink-soft"
@@ -375,6 +377,7 @@ type GraphData = {
 
 type ForeshadowingItem = {
   id: string
+  slug?: string
   title: string
   summary: string
   tag: string
