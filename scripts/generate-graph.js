@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const inputFile = path.resolve(__dirname, '../docs/CHARACTER_RELATIONS.md');
 const outputFile = path.resolve(__dirname, '../public/data/graph.json');
+const indexFile = path.resolve(__dirname, '../public/data/characters_list.json');
 
 const tierOrder = ['主角', '核心配角', '重要配角', '支线角色', '客串角色', '其他'];
 const tierMap = {
@@ -17,24 +18,42 @@ const tierMap = {
   cameo: '客串角色'
 };
 
+function extractTitleName(text) {
+  const title = text.replace(/^#\s*/, '').trim();
+  const name = title.split('（')[0].split('(')[0].trim();
+  return name;
+}
+
+function loadCharacterIndex() {
+  if (!fs.existsSync(indexFile)) return new Map();
+  try {
+    const data = JSON.parse(fs.readFileSync(indexFile, 'utf-8'));
+    const map = new Map();
+    data.forEach(item => {
+      const name = extractTitleName(item.name || item.id);
+      map.set(name, {
+        slug: item.id,
+        category: item.category,
+        score: typeof item.score === 'number' ? item.score : Number(item.score || 0)
+      });
+    });
+    return map;
+  } catch (error) {
+    return new Map();
+  }
+}
+
 function parse() {
   const content = fs.readFileSync(inputFile, 'utf-8');
   const lines = content.split('\n');
 
   const nodes = new Map();
   const links = [];
-  let currentCategory = '未分类';
 
   // 构建 角色名 -> {slug,tier} 的映射表
   const characterMap = new Map();
   const knownNames = new Set();
   const aliasMap = new Map();
-
-  function extractTitleName(text) {
-    const title = text.replace(/^#\s*/, '').trim();
-    const name = title.split('（')[0].split('(')[0].trim();
-    return name;
-  }
 
   function extractAliases(raw) {
     const clean = raw.replace(/（.*?）/g, '').trim();
@@ -61,7 +80,7 @@ function parse() {
       knownNames.add(name);
       aliasMap.set(name, name);
 
-      const aliasLine = content.split('\n').find(line => line.trim().startsWith('- 别称/身份：'));
+      const aliasLine = content.split('\n').find(line => line.trim().startsWith('- 别称/身份：') || line.trim().startsWith('- 别称/化名：'));
       if (aliasLine) {
         const raw = aliasLine.split('：').slice(1).join('：').trim();
         extractAliases(raw).forEach(alias => {
@@ -80,6 +99,8 @@ function parse() {
   Object.keys(tierMap).forEach(key => {
     scanDir(path.join(characterRoot, key), key);
   });
+
+  const indexMap = loadCharacterIndex();
 
   // 预定义分类索引（按重要度）
   const categoriesMap = new Map();
@@ -103,27 +124,38 @@ function parse() {
     return main;
   }
 
+  function resolveMeta(name) {
+    const indexMeta = indexMap.get(name);
+    const docMeta = characterMap.get(name);
+    if (indexMeta) {
+      const tier = tierMap[indexMeta.category] || docMeta?.tier || '其他';
+      return {
+        slug: indexMeta.slug || docMeta?.slug,
+        tier,
+        score: indexMeta.score
+      };
+    }
+    if (docMeta) {
+      return {
+        slug: docMeta.slug,
+        tier: docMeta.tier,
+        score: 0
+      };
+    }
+    return { slug: null, tier: '其他', score: 0 };
+  }
+
   lines.forEach(line => {
     line = line.trim();
     if (line.startsWith('## ')) {
-      currentCategory = line.replace('## ', '').trim();
-      // 简化分类名，例如 "一、姜望核心关系" -> "姜望核心"
-      // 或者直接使用全名
       return;
     }
 
     if (!line.startsWith('- ')) return;
 
-    // 尝试解析
-    // 模式 1: A —关系— B
-    // 模式 2: A ↔ B
-
     let source, target, relation;
 
-    // 移除开头的 "- "
     const text = line.substring(2);
-
-    // 核心逻辑：找到中间的 "—关系—" 或 "↔" 或 "→"
 
     const segments = text.split('；').map(s => s.trim()).filter(Boolean);
     segments.forEach(segment => {
@@ -159,17 +191,16 @@ function parse() {
       const sourceName = normalizeEntity(source);
       if (!sourceName) return;
 
-      // 添加源节点
       if (!nodes.has(sourceName)) {
-        const meta = characterMap.get(sourceName);
-        const tier = meta?.tier || '其他';
+        const meta = resolveMeta(sourceName);
         nodes.set(sourceName, {
           id: sourceName,
           name: sourceName,
-          category: getCategoryIndex(tier),
+          category: getCategoryIndex(meta.tier),
           value: 1,
-          url: meta ? `/character/${meta.slug}` : null,
-          tier
+          url: meta.slug ? `/character/${meta.slug}` : null,
+          tier: meta.tier,
+          score: meta.score
         });
       } else {
         nodes.get(sourceName).value++;
@@ -180,15 +211,15 @@ function parse() {
         if (!targetName) return;
 
         if (!nodes.has(targetName)) {
-          const meta = characterMap.get(targetName);
-          const tier = meta?.tier || '其他';
+          const meta = resolveMeta(targetName);
           nodes.set(targetName, {
             id: targetName,
             name: targetName,
-            category: getCategoryIndex(tier),
+            category: getCategoryIndex(meta.tier),
             value: 1,
-            url: meta ? `/character/${meta.slug}` : null,
-            tier
+            url: meta.slug ? `/character/${meta.slug}` : null,
+            tier: meta.tier,
+            score: meta.score
           });
         } else {
           nodes.get(targetName).value++;
@@ -204,11 +235,14 @@ function parse() {
     });
   });
 
-  // 转换 Map 为 Array
-  const nodesArray = Array.from(nodes.values()).map(n => ({
-    ...n,
-    symbolSize: Math.min(80, 10 + Math.sqrt(n.value) * 8)
-  }));
+  const nodesArray = Array.from(nodes.values()).map(n => {
+    const score = Number.isFinite(n.score) ? n.score : 0;
+    const size = score > 0 ? Math.max(18, Math.min(80, Math.round(16 + score * 0.64))) : Math.min(80, 10 + Math.sqrt(n.value) * 8);
+    return {
+      ...n,
+      symbolSize: size
+    };
+  });
 
   const categoriesArray = tierOrder.map(name => ({ name }));
 

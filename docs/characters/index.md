@@ -15,3 +15,34 @@
 <ClientOnly>
   <RelationGraph />
 </ClientOnly>
+
+## 人物重要性评分（A方案）
+
+用于给人物打分、自动分类并同步影响关系图节点大小。评分只依赖已有分析资料（docs）。
+
+### 评分构成
+- 基础分（来自“叙事重要度”字段）：
+  - 主角：90
+  - 核心配角：75
+  - 重要配角：60
+  - 支线角色：45
+  - 客串角色：25
+- 文档出现加分（命中则加分，不重复累加）：
+  - `docs/plot/PLOT_ROADMAP_1-500.md`：+6
+  - `docs/plot/PLOT_ROADMAP_501-1000.md`：+6
+  - `docs/plot/PLOT_ROADMAP_1001-1500.md`：+6
+  - `docs/world/WORLDVIEW.md`：+4
+  - `docs/CHARACTER_RELATIONS.md`：+6
+  - `docs/factions/**`：+4
+- 上限：100 分
+
+### 分段规则（自动分类）
+- ≥85：主角
+- 70–84：核心配角
+- 55–69：重要配角
+- 40–54：支线角色
+- <40：客串角色
+
+### 应用范围
+- `public/data/characters_list.json` 中的 `category` 与 `score`
+- 关系图节点大小（score → symbolSize）

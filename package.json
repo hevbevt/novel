@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run gen:graph && npm run gen:data && vite",
-    "build": "npm run gen:graph && npm run gen:data && vite build",
+    "build": "npm run gen:data && npm run gen:graph && vite build",
     "preview": "vite preview",
     "gen:graph": "node scripts/generate-graph.js",
     "gen:data": "node scripts/generate-character-data.js",
