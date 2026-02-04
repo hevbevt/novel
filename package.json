@@ -4,10 +4,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run gen:graph && npm run gen:data && vite",
-    "build": "npm run gen:graph && npm run gen:data && vue-tsc --noEmit -p tsconfig.build.json && vite build",
+    "build": "npm run gen:graph && npm run gen:data && vite build",
     "preview": "vite preview",
     "gen:graph": "node scripts/generate-graph.js",
-    "gen:data": "node scripts/generate-character-data.js"
+    "gen:data": "node scripts/generate-character-data.js",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.build.json"
   },
   "keywords": [],
   "author": "",
